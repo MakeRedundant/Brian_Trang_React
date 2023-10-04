@@ -1,5 +1,6 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
+import {changeLanguage} from "../../public/javascript/changeLanguage.js";
 
 const Header = () => {
   return (
@@ -10,11 +11,11 @@ const Header = () => {
         <div className="zero-section">
           <div className="text-box">
             <h2 id="hello" onClick={changeLanguage}>
-              👋 Hello{' '}
+              👋 Hello{" "}
             </h2>
             <p>
-              My name is Brian, and I'm a software engineer <br />
-              based in Australia Sydney 🦘 🐨{' '}
+              My name is Brian, and I&apos;m a software engineer <br />
+              based in Australia Sydney 🦘 🐨{" "}
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />
