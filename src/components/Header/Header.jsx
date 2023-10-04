@@ -1,5 +1,5 @@
-import React from "react";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 
 const Header = () => {
   return (
@@ -8,17 +8,17 @@ const Header = () => {
         className="container"
         style={{
           background:
-            "url('assets/astronaut-man.jpg') no-repeat center center/cover",
+            'url(\'assets/astronaut-man.jpg\') no-repeat center center/cover',
         }}
       >
         <div className="zero-section">
           <div className="text-box">
             <h2 id="hello" onClick={changeLanguage}>
-              👋 Hello{" "}
+              👋 Hello{' '}
             </h2>
             <p>
               My name is Brian, and I'm a software engineer <br />
-              based in Australia Sydney 🦘 🐨{" "}
+              based in Australia Sydney 🦘 🐨{' '}
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />

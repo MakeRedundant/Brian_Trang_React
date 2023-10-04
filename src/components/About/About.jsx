@@ -1,34 +1,31 @@
-import React from "react";
-import "./about.css";
-import GlsPhoto from '../../assets/Paedriatic-Gls.jpg';
+import React from 'react';
+import './about.css';
+// import GlsPhoto from '../../assets/Paedriatic-Gls.jpg';
+// import ShakingEyesGif from '../../assets/capoo-gaming.gif';
 
 const About = () => {
   return (
-    <section id="about" className="about">
-      <h5>{('about.title2')}</h5>
-      <h2>{("about.title")}</h2>
-      <div className="container about_container">
-        <div className="about_me">
-          <div className="about_me-image">
-            <img src={GlsPhoto} alt="About me" />
+    <div className="first-section">
+      <section id='first'>
+        <h1>About</h1>
+        <div className="about-container">
+          <div className="shaking-eyes-gif">
+            {/* <img src={ShakingEyesGif} alt="Shaking eyes" /> */}
+          </div>
+          <div className="about-text">
+            <div className="text-box">
+              <p> After more than 5 years as an Optometrist,
+                I have decided to jump over to programming! <br />
+                When I'm not coding, you can find me watching
+                YouTube coding tutorials or cat videos 🐱‍💻.
+              <br />
+                Look around, and I hope to hear back from you!
+              </p>
+            </div>
           </div>
         </div>
-        <div className="about_content">
-          <p>
-            {("about.content1")}
-            <br />
-            <br />
-            {("about.content2")}
-            <br />
-            <br />
-            {("about.content3")}
-          </p>
-          <a href="#project" className="btn btn-primary">
-            {("about.seeProjects")}
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
