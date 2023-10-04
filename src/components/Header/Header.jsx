@@ -18,7 +18,7 @@ const Header = () => {
             </h2>
             <p>
               My name is Brian, and I'm a software engineer <br />
-              based in Australia Sydney 🦘{" "}
+              based in Australia Sydney 🦘 🐨{" "}
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />

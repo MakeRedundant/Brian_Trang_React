@@ -1,6 +1,7 @@
-import "./App.css";
-import React from "react";
-import Header from "./components/Header/Header";
+import './App.css';
+import React from 'react';
+import Navbar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
 // import About from './components/About/About';
 // import Experience from './components/Experience/Experience';
 // import Skills from './components/Skills/Skills';
@@ -12,6 +13,7 @@ import Header from "./components/Header/Header";
 const App = () => {
   return (
     <>
+      <Navbar />
       <Header />
       {/* <About />
       <Experience />
@@ -25,3 +27,9 @@ const App = () => {
 };
 
 export default App;
+
+//so quick summary for eslint
+//npm install eslint
+//npm init @eslint/config answer some questions
+//npx  eslint file.js
+//npx eslint file.js --fix (to fix the thing)
