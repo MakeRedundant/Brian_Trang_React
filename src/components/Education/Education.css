@@ -1,0 +1,25 @@
+/* Education section */
+.university {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.university img {
+  width: 9rem;
+  margin-left: 1rem;
+}
+
+.university p {
+  font-size: 1.25rem;
+  color: #ffffff;
+  flex: 1;
+  text-align: left;
+}
+
+.university p span {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
