@@ -1,8 +1,4 @@
-import React from 'react';
 import './Skills.css';
-
-import React from 'react';
-import './Skills.css'; // Import your CSS file
 
 const Skills = () => {
   return (
@@ -19,9 +15,9 @@ const Skills = () => {
             <th>FRAMEWORKS &amp; MAJOR LIBRARIES</th> {/* Fixed ampersand */}
             <td>
               <i className="fab fa-node-js"></i> Express.js, <i className="fas fa-file-code"></i> Handlebars.js, <i
-              className="fab fa-react"></i> React, <i className="fab fa-vuejs"></i> Vue,
+                className="fab fa-react"></i> React, <i className="fab fa-vuejs"></i> Vue,
               <i className="fab fa-bootstrap"></i> Bootstrap CSS, <i className="fab fa-jest"></i> Jest, <i
-              className="fas fa-database"></i> SQL Server, <i className="fab fa-css3-alt"></i> Tailwind CSS
+                className="fas fa-database"></i> SQL Server, <i className="fab fa-css3-alt"></i> Tailwind CSS
             </td>
           </tr>
           <tr>
@@ -42,7 +38,7 @@ const Skills = () => {
             <td>
               <i className="fab fa-git"></i> Git, <i className="fab fa-gitlab"></i> Gitlab, <i className="fas fa-code"></i> Insomnia,
               <i className="fas fa-database"></i> MongoDB Compass, <i className="fas fa-database"></i> SQL Workbench, <i
-              className="fab fa-slack"></i> Slack,
+                className="fab fa-slack"></i> Slack,
               <i className="fab fa-microsoft"></i> Microsoft Office + Teams, <i className="fab fa-figma"></i> Figma
             </td>
           </tr>

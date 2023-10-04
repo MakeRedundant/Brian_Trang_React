@@ -31,8 +31,8 @@ module.exports = {
     'no-use-before-define': 'error',
     'no-redeclare': 'error',
     'brace-style': 'error',
-    'indent': ['error', 2],
-    'quotes': ['error', 'single'],
+    'indent': ['warn', 2],
+    'quotes': ['error', 'double'],
     'semi': ['error', 'always'],
     'radix': 'off',
 
