@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './About.css';
 // import GlsPhoto from '../../assets/Paedriatic-Gls.jpg';
 // import ShakingEyesGif from '../../assets/capoo-gaming.gif';
 
