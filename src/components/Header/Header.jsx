@@ -6,10 +6,6 @@ const Header = () => {
     <header id="header">
       <div
         className="container"
-        style={{
-          background:
-            'url(\'assets/astronaut-man.jpg\') no-repeat center center/cover',
-        }}
       >
         <div className="zero-section">
           <div className="text-box">
@@ -31,3 +27,16 @@ const Header = () => {
 };
 
 export default Header;
+
+
+// const LeftBanner = () => {
+//     const [text] = useTypewriter({
+//       words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+//       loop: true,
+//       typeSpeed: 20,
+//       deleteSpeed: 10,
+//       delaySpeed: 2000,
+//     });
+
+//     import { useTypewriter, Cursor } from "react-simple-typewriter";
+//try this instead
