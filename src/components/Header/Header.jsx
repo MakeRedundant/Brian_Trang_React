@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
-import {changeLanguage} from "../../public/javascript/changeLanguage.js";
+import {changeLanguage} from "../../javascript/changeLanguage.js";
+// import {Codingtext} from "../../javascript/codingEffect.js";
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />
-            <div id="Codingtext"></div>
+            {/* <div id="Codingtext"></div> */}
           </div>
         </div>
       </div>

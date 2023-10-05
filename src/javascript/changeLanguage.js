@@ -25,9 +25,11 @@ let languages = [
 let index = 0;
 
 // Function to change the language
-function changeLanguage() {
+export function changeLanguage() {
   let language = languages[index];
   document.getElementById("hello").innerHTML = `<span id="flag" class="flag-icon 
   flag-icon-${language.flag}"></span> ${language.text}`;
   index = (index + 1) % languages.length;
 }
+
+// export default changeLanguage();
