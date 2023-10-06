@@ -2,6 +2,9 @@ import React from "react";
 import "./Header.css";
 import {changeLanguage} from "../../javascript/changeLanguage.js";
 // import {Codingtext} from "../../javascript/codingEffect.js";
+// import MyTypewriter from "../../javascript/typeWriter.js";
+import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
+
 
 const Header = () => {
   return (
@@ -20,6 +23,7 @@ const Header = () => {
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />
+            <p>but i also like <TypewriterComponent words= {["Coding"]} /></p>
             {/* <div id="Codingtext"></div> */}
           </div>
         </div>
@@ -29,16 +33,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-// const LeftBanner = () => {
-//     const [text] = useTypewriter({
-//       words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
-//       loop: true,
-//       typeSpeed: 20,
-//       deleteSpeed: 10,
-//       delaySpeed: 2000,
-//     });
-
-//     import { useTypewriter, Cursor } from "react-simple-typewriter";
-//try this instead

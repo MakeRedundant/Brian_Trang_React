@@ -20,16 +20,17 @@ let languages = [
   { text: "ជំរាបសួរ", flag: "kh" },
   { text: "Hallo", flag: "de" },
   { text: "Hej", flag: "se" },
-  { text: "Hei", flag: "fi" }
+  { text: "Hei", flag: "fi" },
 ];
 let index = 0;
 
 // Function to change the language
-export function changeLanguage() {
+function changeLanguage() {
   let language = languages[index];
   document.getElementById("hello").innerHTML = `<span id="flag" class="flag-icon 
   flag-icon-${language.flag}"></span> ${language.text}`;
   index = (index + 1) % languages.length;
 }
 
-// export default changeLanguage();
+// Export the changeLanguage function
+export { changeLanguage };

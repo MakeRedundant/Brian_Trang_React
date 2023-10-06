@@ -1,19 +1,23 @@
-// typewriterLogic.js
-import { useTypewriter } from "react-simple-typewriter";
+// typewriter Logic.js
 
-export const useTypewriterLogic = () => {
-  const typeText = useTypewriter({
-    words: [
-      "Javascript.",
-      "HTML/CSS.",
-      "Driving in peak hour traffic",
-      "Binge watching youtube tutorials"
-    ],
-    loop: true,
-    typeSpeed: 20,
-    deleteSpeed: 10,
-    delaySpeed: 2000
-  });
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
-  return { typeText };
-};
+const words = [
+  "Javascript.",
+  "HTML/CSS.",
+  "Driving in peak hour traffic",
+  "Binge watching youtube tutorials"
+];
+
+export default function MyTypewriter() {
+  return (
+    <Typewriter
+      words={words}
+      loop={true}
+      typeSpeed={20}
+      deleteSpeed={10}
+      delaySpeed={2000}
+    />
+  );
+}
