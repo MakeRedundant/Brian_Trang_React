@@ -23,7 +23,7 @@ const Header = () => {
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
             <br />
-            <p>but i also like <TypewriterComponent words= {["Coding"]} /></p>
+            <p>but i also like <TypewriterComponent/></p>
             {/* <div id="Codingtext"></div> */}
           </div>
         </div>

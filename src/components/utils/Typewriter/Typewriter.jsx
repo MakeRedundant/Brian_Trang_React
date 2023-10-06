@@ -1,5 +1,4 @@
-import React from 'react';
-import { Typewriter } from 'react-simple-typewriter';
+import { Typewriter } from "react-simple-typewriter";
 
 export const TypewriterComponent = ({ words, loop, typeSpeed, deleteSpeed, delaySpeed }) => {
   return (
