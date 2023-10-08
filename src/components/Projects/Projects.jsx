@@ -36,8 +36,8 @@ const projectData = [
     Live: "https://makeredundant.github.io/Stress-free-gacha/",
     Source: "https://github.com/MakeRedundant/Stress-free-gacha",
     description:
-      "Users can summon random AI-generated characters using PixelAI from videogames/anime/Visual novels etc.",
-    tags: ["Javascript"],
+      "Users can generate random AI-generated characters from videogames/anime.",
+    tags: ["Javascript", "PixelAI"],
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const projectData = [
     Live: "https://makeredundant.github.io/Marvel-Character-Browser/",
     Source: "https://github.com/MakeRedundant/Stress-free-gacha",
     description:
-      "Users can search for Marvel characters to see information such as the comics, creators, affliations etc",
+      "Users can search for Marvel characters to see the info, comics, creators etc",
     tags: ["Javascript", "Tailwind", "Marvel API"],
   },
   {
@@ -158,8 +158,19 @@ const Projects = () => {
             );
           }
         )}
-      </div>
+      </div> <br>
+      </br>
+      <p>
+        Haven't had enough? Check these projects out as well!!
+        <a
+          href="https://github.com/MakeRedundant?tab=repositories"
+          className="github-button"
+        >
+          <i className="fab fa-github"></i> More projects
+        </a>
+      </p>
     </section>
+
   );
 };
 

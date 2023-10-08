@@ -1,5 +1,4 @@
-import React from 'react';
-import './Contact.css';
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -10,9 +9,6 @@ const Contact = () => {
           <div className="contact-text">
             <p>Thanks for viewing my website <br /> Feel free to contact me here</p>
           </div>
-        </div>
-        <div className="contact-gifs">
-          <img src="assets/thanks-thank-you.gif" alt="Thank-you gif" />
         </div>
         <div className="contact-details">
           {/* All links open in a new tab */}
