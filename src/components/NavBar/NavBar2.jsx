@@ -21,15 +21,15 @@ const NavBar2 = () => {
           <i className="icon fa fa-code"></i>
           Skills
         </a>
-        <a href="#fourth" data-text="Project">
+        <a href="#project" data-text="Project">
           <i className="far fa-folder-open"></i>
           Project
         </a>
-        <a href="#fifth" data-text="Education">
+        <a href="#education" data-text="Education">
           <i className="far fa fa-school"></i>
           Education
         </a>
-        <a href="#sixth" data-text="Contact">
+        <a href="#contact" data-text="Contact">
           <i className="far fa fa-phone"></i>
           Contact
         </a>

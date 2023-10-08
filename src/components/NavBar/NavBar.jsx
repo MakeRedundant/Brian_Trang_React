@@ -66,15 +66,15 @@ export const Navbar = () => {
           <i className="far fa-folder-open"></i>
         </a>
         <a
-          href="#fifth"
-          className={activeNav === "#fifth" ? "active" : ""}
+          href="#education"
+          className={activeNav === "#education" ? "active" : ""}
           data-text="Education"
         >
           <i className="far fa fa-school"></i>
         </a>
         <a
-          href="#sixth"
-          className={activeNav === "#sixth" ? "active" : ""}
+          href="#contact"
+          className={activeNav === "#contact" ? "active" : ""}
           data-text="Contact"
         >
           <i className="far fa fa-phone"></i>

@@ -4,7 +4,7 @@ import UNSWLogo from "../../assets/UNSW.png";
 
 const Education = () => {
   return (
-    <section id='fifth'>
+    <section id='education'>
       <h1>Education</h1>
       <div className="text-box">
         <div className="university">

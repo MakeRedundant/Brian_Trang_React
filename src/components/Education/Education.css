@@ -1,4 +1,8 @@
 /* Education section */
+#education {
+  padding-top: 20%;
+}
+
 .university {
   display: flex;
   margin-bottom: 1rem;
