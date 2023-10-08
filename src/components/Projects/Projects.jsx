@@ -161,7 +161,7 @@ const Projects = () => {
       </div> <br>
       </br>
       <p>
-        Haven't had enough? Check these projects out as well!!
+        Haven&apos;t had enough? Check these projects out as well!!
         <a
           href="https://github.com/MakeRedundant?tab=repositories"
           className="github-button"

@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import Navbar from "./components/NavBar/NavBar";
+import Navbar2 from "./components/NavBar/NavBar2";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <Navbar2 />
       <Header />
       <About />
       <Experience />

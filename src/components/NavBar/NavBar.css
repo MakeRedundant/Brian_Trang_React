@@ -1,4 +1,5 @@
-nav {
+.navbar-container {
+  display: flex;
   background: rgba(0,0,0,0.3);
   width: max-content;
   padding: 0.7rem 1.7rem;
@@ -7,13 +8,12 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   bottom: 2rem;
-  display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
 
-nav a {
+.navbar-container a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -22,21 +22,21 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
+.navbar-container a:hover {
   background: rgba(0,0,0,0.3);
 }
 
-nav a.active {
+.navbar-container a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
 @media screen and (max-width: 768px) {
-  nav {
+  .navbar-container {
     padding: 0.4rem 0.7rem;
   }
 
-  nav a {
+  .navbar-container a {
     padding: 0.7rem; 
     font-size: 0.9rem;
   }
