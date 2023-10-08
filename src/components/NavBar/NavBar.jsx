@@ -38,8 +38,8 @@ export const Navbar = () => {
           <i className="far fa fa-home"></i>
         </a>
         <a
-          href="#first"
-          className={activeNav === "#first" ? "active" : ""}
+          href="#about"
+          className={activeNav === "#about" ? "active" : ""}
           data-text="About"
         >
           <i className="far fa-user"></i>

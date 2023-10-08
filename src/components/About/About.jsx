@@ -1,14 +1,13 @@
-import React from 'react';
-import './About.css';
+import "./About.css";
 // import GlsPhoto from '../../assets/Paedriatic-Gls.jpg';
 // import ShakingEyesGif from '../../assets/capoo-gaming.gif';
 
 const About = () => {
   return (
     <div className="first-section">
-      <section id='first'>
+      <section id='about'>
         <h1>About</h1>
-        <div className="about-container">
+        <div className="container">
           <div className="shaking-eyes-gif">
             {/* <img src={ShakingEyesGif} alt="Shaking eyes" /> */}
           </div>
@@ -16,7 +15,7 @@ const About = () => {
             <div className="text-box">
               <p> After more than 5 years as an Optometrist,
                 I have decided to jump over to programming! <br />
-                When I'm not coding, you can find me watching
+                When I&apos;m not coding, you can find me watching
                 YouTube coding tutorials or cat videos 🐱‍💻.
               <br />
                 Look around, and I hope to hear back from you!

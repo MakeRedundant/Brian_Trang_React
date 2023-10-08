@@ -9,7 +9,7 @@ const NavBar2 = () => {
           <i className="far fa fa-home"></i>
           Home
         </a>
-        <a href="#first" data-text="About">
+        <a href="#about" data-text="About">
           <i className="far fa-user"></i>
           About
         </a>

@@ -12,17 +12,12 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
+  --color-bg-project-card: #17176e;
+  --color-primary: #096bff;
+  --color-primary-projects: rgba(30, 157, 248, 0.4);
+  --color-text: #ffffff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease;
-
-  --container-widht-lg: 75%;
-  --container-widht-md: 86%;
-  --container-widht-ms: 90%;
 }
 
 html {
@@ -32,20 +27,13 @@ html {
 body {
   font-family: "poppins", sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-text);
   line-height: 1.7;
   background-image: url(./assets/Space.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-}
-
-/*______________ GENERAL STYLES_____________*/
-
-.container {
-  width: var(--container-widht-lg);
-  margin: 0 auto;
 }
 
 h1,
@@ -74,35 +62,13 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
-  color: var(--color-light);
-}
-
 a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
 a:hover{
-   color: var(--color-white);
-}
-
-.btn{
-   width: max-content;
-   display: inline-block;
-   color: var(--color-primary);
-   padding: 0.75rem 1.2rem;
-   border-radius: 0.4rem;
-   cursor: pointer;
-   border: 1px solid var(--color-primary);
-   transition: var(--transition);
-}
-
-
-.btn:hover{
-   background: var(--color-white);
-   color: var(--color-bg);
-   border-color: transparent;
+   color: var(--color-text);
 }
 
 
@@ -119,7 +85,7 @@ img{
 
 /* !!!!!!!!!!!!!!!!!!!!!!! Media Queries !!!!!!!!!!!!!!!!!!!!!!! */
 
-/*===== Media Query(Tablet)===*/
+/* !!!!!!!!!!!!!!! Media Query(Tablet) !!!!!!!!!!!!!*/
 @media screen and (max-width: 1024px){
    .container {
      width: var(--container-width-md);
@@ -130,7 +96,7 @@ img{
    }
  }
  
- /*===== Media Query(Mobile)===*/
+ /* !!!!!!!!!!!!!!! Media Query(Mobile) !!!!!!!!!!!!!*/
  @media screen and (max-width: 600px){
    .container {
      width: var(--container-width-sm);

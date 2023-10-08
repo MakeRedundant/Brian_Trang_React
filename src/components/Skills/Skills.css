@@ -1,0 +1,16 @@
+.skills-table {
+  font-size: 1.0rem;
+  padding-top: 15%;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 0.15em solid #ddd;
+  padding: 1.25%;
+  text-align: left;
+}
+
+.skills-table th {
+  background-color: #000000;
+}
+

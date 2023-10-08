@@ -1,5 +1,5 @@
 /* Styles for the second nav bar */
-.navbar2-container {
+/* .navbar2-container {
   position: fixed;
   top: 0;
   right: 0;
@@ -9,7 +9,7 @@
   justify-content: flex-end;
   width: 100vw;
   z-index: 1000;
-}
+} */
 
 .navbar2-container a:hover {
   background: rgba(255, 0, 0, 0.3); /* Red hover effect */
