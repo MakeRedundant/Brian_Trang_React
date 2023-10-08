@@ -1,0 +1,139 @@
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+  position: relative;
+}
+.project {
+  height: 100%;
+}
+.project-card {
+  position: relative;
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.project-card:hover {
+  border-color: var(--color-primary-variant);
+  background: var(--color-primary-variant);
+}
+
+.project-card-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+
+.project-card-image {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+.project-card:hover .project-card-image img {
+  filter: blur(4px);
+}
+
+.project-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-card-overlay {
+  opacity: 1;
+}
+
+.project-card-category {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-icon {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card-icon svg {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+.project-card-details {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+}
+
+.project-card:hover .project-card-details {
+  opacity: 0.1;
+}
+
+.project-card-title {
+  color: var(--color-primary);
+}
+
+.tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem; 
+  margin: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .project-card{
+    width: 95%;
+    margin: auto;
+  
+}
+}
+@media screen and (max-width: 600px) {
+.project-card{
+    width: 95%;
+    margin: auto;
+  
+}
+  .project-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
