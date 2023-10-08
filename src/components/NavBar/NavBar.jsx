@@ -45,15 +45,15 @@ export const Navbar = () => {
           <i className="far fa-user"></i>
         </a>
         <a
-          href="#second"
-          className={activeNav === "#second" ? "active" : ""}
+          href="#experience"
+          className={activeNav === "#experience" ? "active" : ""}
           data-text="Experience"
         >
           <i className="fas fa-briefcase"></i>
         </a>
         <a
-          href="#third"
-          className={activeNav === "#third" ? "active" : ""}
+          href="#skills"
+          className={activeNav === "#skills" ? "active" : ""}
           data-text="Skills"
         >
           <i className="icon fa fa-code"></i>

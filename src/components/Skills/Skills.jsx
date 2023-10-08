@@ -2,7 +2,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section id='third'>
+    <section id='skills'>
       <h1>Skills</h1>
       <table className="skills-table">
         <tbody>

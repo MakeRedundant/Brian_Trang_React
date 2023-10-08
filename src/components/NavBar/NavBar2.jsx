@@ -13,11 +13,11 @@ const NavBar2 = () => {
           <i className="far fa-user"></i>
           About
         </a>
-        <a href="#second" data-text="Experience">
+        <a href="#experience" data-text="Experience">
           <i className="fas fa-briefcase"></i>
           Experience
         </a>
-        <a href="#third" data-text="Skills">
+        <a href="#skills" data-text="Skills">
           <i className="icon fa fa-code"></i>
           Skills
         </a>

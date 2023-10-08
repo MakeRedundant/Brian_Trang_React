@@ -2,7 +2,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <section id='second'>
+    <section id='experience'>
       <h1>Experience</h1>
       {/* <div className="work-cat">
         <img src="assets/cat-work.gif" alt="work cat"/>
