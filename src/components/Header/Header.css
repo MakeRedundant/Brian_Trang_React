@@ -19,15 +19,14 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-border-radius: 2rem;
+  border-radius: 2rem;
   overflow: hidden;
 }
 
 .header-text {
   font-size: larger;
-  width: 90%;
+  width: 100%;
   padding: 1rem;
-  border: 2px solid navy;
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }

@@ -13,7 +13,9 @@ const About = () => {
           </div>
           <div className="about-text">
             <div className="text-box">
-              <p> After more than 5 years as an Optometrist,
+              <p> As a optometrist i worked in a wide range of fields including
+                Paedriatics, Refractive (LASIK), Glaucoma, Orthoptic and Retinal <br/>
+                 And after more than 5 years as an Optometrist,
                 I have decided to jump over to programming! <br />
                 When I&apos;m not coding, you can find me watching
                 YouTube coding tutorials or cat videos 🐱‍💻.
