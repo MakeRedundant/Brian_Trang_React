@@ -23,7 +23,7 @@
 }
 
 .project-card-description {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   margin-top: 0.5rem;
   color: #ffffff;
@@ -60,6 +60,27 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem; 
+}
+
+.project-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #0056b3;
+}
+
 
 .project-card:hover .project-card-overlay {
   opacity: 1;
@@ -103,9 +124,9 @@
   display: inline-block;
   background-color: #007bff;
   color: white;
-  font-size: 0.9rem;
-  padding: 0.3rem 1rem; 
-  margin: 0.5rem;
+  font-size: 0.5rem;
+  padding: 0.3rem 0.5rem; 
+  margin: 0.3rem;
   border-radius: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;

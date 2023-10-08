@@ -1,5 +1,4 @@
 import "./Projects.css";
-import {BsGithub} from "react-icons/bs";
 import PROJECT1 from "../../assets/Sickie.gif";
 import PROJECT2 from "../../assets/Summoning gif.gif";
 import PROJECT3 from "../../assets/Marvel Characters.gif";
@@ -15,17 +14,30 @@ const projectData = [
     title: "Sickie.com",
     github: "https://github.com/MakeRedundant/Sickie.com",
     category: "Full-stack Website",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    Live: "https://takesickies-40fabe44386a.herokuapp.com/",
+    Source: "https://github.com/MakeRedundant/Sickie.com",
+    description:
+      "Sickie.com is a mockup medical website, where users request medical certificates",
+    tags: [
+      "Javascript",
+      "Express.js",
+      "Bcrypt",
+      "Tailwind",
+      "Handebars",
+      "SQL",
+    ],
   },
   {
     id: 2,
     image: PROJECT2,
-    title: "Personnel Tracking App",
+    title: "AI Gacha game",
     github: "https://github.com/MakeRedundant/Stress-free-gacha",
     category: "AI-Videogame",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    Live: "https://makeredundant.github.io/Stress-free-gacha/",
+    Source: "https://github.com/MakeRedundant/Stress-free-gacha",
+    description:
+      "Users can summon random AI-generated characters using PixelAI from videogames/anime/Visual novels etc.",
+    tags: ["Javascript"],
   },
   {
     id: 3,
@@ -33,8 +45,11 @@ const projectData = [
     title: "Marvel-Wiki",
     github: "https://github.com/MakeRedundant/Marvel-Character-Browser",
     category: "Frontend",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    Live: "https://makeredundant.github.io/Marvel-Character-Browser/",
+    Source: "https://github.com/MakeRedundant/Stress-free-gacha",
+    description:
+      "Users can search for Marvel characters to see information such as the comics, creators, affliations etc",
+    tags: ["Javascript", "Tailwind", "Marvel API"],
   },
   {
     id: 4,
@@ -42,34 +57,47 @@ const projectData = [
     title: "Tech Blog",
     github: "https://github.com/MakeRedundant/CMS-Style-Tech_Blog",
     category: "Tech Blog",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    Live: "https://onion-tech-blog-bc59635a679a.herokuapp.com/",
+    Source: "https://github.com/MakeRedundant/CMS-Style-Tech_Blog",
+    description:
+      "Users can sign in/sign up and create, update/edit and delete posts/comments.",
+    tags: [
+      "Javascript",
+      "Express.js",
+      "Bcrypt",
+      "Tailwind",
+      "Handebars",
+      "MongoDB",
+    ],
   },
   {
     id: 5,
     image: PROJECT5,
-    title: "Employee Tracker_SQL",
-    github: "https://github.com/MakeRedundant/Employee-Tracker_SQL",
-    category: "Backend",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    title: "5-Day Weather Forecast",
+    github: "https://github.com/MakeRedundant/README_Generator",
+    category: "Open Weather API",
+    Live: "https://makeredundant.github.io/5-Day-WeatherForcast/",
+    Source: "https://github.com/MakeRedundant/5-Day-WeatherForcast",
+    description: "5-Day Forecast for a city of your choice",
+    tags: ["Javascript", "Open Weather API", "Day JS", "Bootstrap"],
   },
   {
     id: 6,
     image: PROJECT6,
     title: "README Generator",
     github: "https://github.com/MakeRedundant/README_Generator",
-    category: "Backend",
-    description:"Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt and The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.",
-    tags: ["Javascript","Express.js"],
+    category: "File Generator",
+    Source: "https://github.com/MakeRedundant/README_Generator",
+    description: "Professional ReadME Generator for projects",
+    tags: ["Javascript", "File System", "Inquirer"],
   },
 ];
 
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
 
-  const handleProjectClick = (githubLink) => {
-    window.open(githubLink, "_blank");
+  const handleProjectClick = (link) => {
+    window.open(link, "_blank");
   };
 
   return (
@@ -77,42 +105,59 @@ const Projects = () => {
       <h5>Projects</h5>
       <h2>Check out my stuff here!</h2>
       <div className="container project-container">
-        {projectData.map(({ id, image, title, github, category, description, tags }) => {
-          const isHovered = hoveredProject === id;
+        {projectData.map(
+          ({ id, image, title, category, description, tags, Live, Source }) => {
+            const isHovered = hoveredProject === id;
 
-          return (
-            <article
-              key={id}
-              className={`project-card ${isHovered ? "hovered" : ""}`}
-              onMouseEnter={() => setHoveredProject(id)}
-              onMouseLeave={() => setHoveredProject(null)}
-              onClick={() => handleProjectClick(github)}
-            >
-              <div className="project-card-image">
-                <img src={image} alt={title} />
-                {isHovered && (
-                  <div className="project-card-overlay">
-                    <div className="project-card-category">{category}</div>
-                    <div className="project-card-icon">
-                      <BsGithub size={50} />
+            return (
+              <article
+                key={id}
+                className={`project-card ${isHovered ? "hovered" : ""}`}
+                onMouseEnter={() => setHoveredProject(id)}
+                onMouseLeave={() => setHoveredProject(null)}
+              >
+                <div className="project-card-image">
+                  <img src={image} alt={title} />
+                  {isHovered && (
+                    <div className="project-card-overlay">
+                      <div className="project-card-category">{category}</div>
+                      <div className="project-buttons">
+                        {Live && (
+                          <button
+                            className="project-button"
+                            onClick={() => handleProjectClick(Live)}
+                          >
+                            Live Demo
+                          </button>
+                        )}
+                        {Source && (
+                          <button
+                            className="project-button"
+                            onClick={() => handleProjectClick(Source)}
+                          >
+                            Source Code
+                          </button>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                )}
-              </div>
-              <div className="project-card-details">
-                <h3 className="project-card-title">{title}</h3>
-                <p className="project-card-description">{description}</p>
-                <div className="project-card-tags">
-                  {tags.map((tag, index) => (
-                    <span key={index} className="tag">
-                      {tag}
-                    </span>
-                  ))}
+                  )}
                 </div>
-              </div>
-            </article>
-          );
-        })}
+
+                <div className="project-card-details">
+                  <h3 className="project-card-title">{title}</h3>
+                  <p className="project-card-description">{description}</p>
+                  <div className="project-card-tags">
+                    {tags.map((tag, index) => (
+                      <span key={index} className="tag">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </article>
+            );
+          }
+        )}
       </div>
     </section>
   );
