@@ -2,9 +2,9 @@ import "./Projects.css";
 import PROJECT1 from "../../assets/Sickie.gif";
 import PROJECT2 from "../../assets/Summoning gif.gif";
 import PROJECT3 from "../../assets/Marvel Characters.gif";
-import PROJECT4 from "../../assets/Marvel Characters.gif";
-import PROJECT5 from "../../assets/Marvel Characters.gif";
-import PROJECT6 from "../../assets/Marvel Characters.gif";
+import PROJECT4 from "../../assets/Tech Blog.gif";
+import PROJECT5 from "../../assets/Weather Forecast.gif";
+import PROJECT6 from "../../assets/ReadMe Generator.gif";
 import { useState } from "react";
 
 const projectData = [
@@ -102,8 +102,8 @@ const Projects = () => {
 
   return (
     <section id="project" className="project">
-      <h5>Projects</h5>
-      <h2>Check out my stuff here!</h2>
+      <h2>Projects</h2>
+      <h5>Check out my stuff here!</h5>
       <div className="container project-container">
         {projectData.map(
           ({ id, image, title, category, description, tags, Live, Source }) => {

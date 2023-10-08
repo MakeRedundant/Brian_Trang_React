@@ -14,3 +14,9 @@
   background-color: #000000;
 }
 
+@media screen and (max-width: 768px) {
+  .skills-table {
+  font-size: 0.8rem;
+  }
+
+}
