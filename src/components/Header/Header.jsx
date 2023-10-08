@@ -1,9 +1,22 @@
+import React, { useEffect } from "react";
 import "./Header.css";
 import { changeLanguage } from "../../javascript/changeLanguage.js";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
 import ME from "../../assets/MeSlit Lamp.jpg";
 
 const Header = () => {
+  useEffect(() => {
+    const languageLoop = () => {
+      changeLanguage();
+      setTimeout(languageLoop, 2000);
+    };
+
+    const delay = setTimeout(languageLoop, 2000);
+
+    return () => clearTimeout(delay);
+  }, []);
+
+
   return (
     <header id="header" className="header">
       <div className="header-container">
