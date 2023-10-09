@@ -1,3 +1,13 @@
 .first-section {
     padding-top: 20%;
 }
+
+.about-text {
+  font-size: larger;
+  height: 75%;
+  max-width: 100%;
+  overflow: hidden; /* Hide overflowing content */
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}

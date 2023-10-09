@@ -1,33 +1,32 @@
 # Brian Trang || Portoflio 
-Progressive Web Applications: Text Editor    
+You stumbled onto something great have a look around !
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
-![Express Badge](https://img.shields.io/badge/express-%5E4.17.1-orange.svg)
-![If-env Badge](https://img.shields.io/badge/if--env-%5E1.0.4-yellowgreen.svg)
-![Concurrently Badge](https://img.shields.io/badge/concurrently-%5E5.2.0-blue.svg)
-![Nodemon Badge](https://img.shields.io/badge/nodemon-%5E2.0.4-red.svg)
-![Code Mirror Themes Badge](https://img.shields.io/badge/code--mirror--themes-%5E1.0.0-lightgrey.svg)
-![IDB Badge](https://img.shields.io/badge/idb-%5E6.1.2-green.svg)
-![Babel Core Badge](https://img.shields.io/badge/%40babel%2Fcore-%5E7.15.0-yellow.svg)
-![Babel Loader Badge](https://img.shields.io/badge/babel--loader-%5E8.2.2-important.svg)
-![CSS Loader Badge](https://img.shields.io/badge/css--loader-%5E6.2.0-orange.svg)
-![HTML Webpack Plugin Badge](https://img.shields.io/badge/html--webpack--plugin-%5E5.3.2-yellowgreen.svg)
-![HTTP Server Badge](https://img.shields.io/badge/http--server-%5E0.11.1-blue.svg)
-![Style Loader Badge](https://img.shields.io/badge/style--loader-%5E3.2.1-red.svg)
-![Webpack Badge](https://img.shields.io/badge/webpack-%5E5.51.1-success.svg)
-![Webpack CLI Badge](https://img.shields.io/badge/webpack--cli-%5E4.8.0-informational.svg)
-![Webpack Dev Server Badge](https://img.shields.io/badge/webpack--dev--server-%5E4.0.0-critical.svg)
-![Webpack PWA Manifest Badge](https://img.shields.io/badge/webpack--pwa--manifest-%5E4.3.0-important.svg)
-![Workbox Webpack Plugin Badge](https://img.shields.io/badge/workbox--webpack--plugin-%5E6.2.4-brightgreen.svg)
-![Heroku Badge](https://img.shields.io/badge/Heroku-Deployed-430098.svg?logo=heroku)
+[![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^6.4.2-ff69b4.svg)]
+[![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-^0.2.0-9acd32.svg)]
+[![emailjs](https://img.shields.io/badge/emailjs-^4.0.3-ffa500.svg)]
+[![emailjs-com](https://img.shields.io/badge/emailjs--com-^3.2.0-00ced1.svg)]
+[![install](https://img.shields.io/badge/install-^0.13.0-32cd32.svg)]
+[![react](https://img.shields.io/badge/react-^18.2.0-ffa07a.svg)]
+[![react-dom](https://img.shields.io/badge/react--dom-^18.2.0-40e0d0.svg)]
+[![react-icons](https://img.shields.io/badge/react--icons-^4.11.0-8a2be2.svg)]
+[![react-simple-typewriter](https://img.shields.io/badge/react--simple--typewriter-^5.0.1-00ff7f.svg)]
+[![semantic-ui-css](https://img.shields.io/badge/semantic--ui--css-^2.5.0-ffa500.svg)]
+[![semantic-ui-react](https://img.shields.io/badge/semantic--ui--react-^2.1.4-87ceeb.svg)]
+[![sweetalert2](https://img.shields.io/badge/sweetalert2-^11.7.32-ff4500.svg)]
+[![@vitejs/plugin-react](https://img.shields.io/badge/@vitejs/plugin--react-^4.0.3-4169e1.svg)]
+[![eslint](https://img.shields.io/badge/eslint-^8.45.0-32cd32.svg)]
+[![eslint-plugin-react](https://img.shields.io/badge/eslint--plugin--react-^7.32.2-00ff00.svg)]
+[![eslint-plugin-react-hooks](https://img.shields.io/badge/eslint--plugin--react--hooks-^4.6.0-ff6347.svg)]
+[![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)]
+[![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_ID_HERE)
+
+
+
 
 ## 📄 Description 
-This text editor is a single-page application that runs in the browser and meets the PWA criteria. It also features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.  
-
-To build this text editor, methods for getting and storing data to an IndexedDB database were implemented using the idb package. IndexedDB is a NoSQL database that is built into the browser and allows for offline data storage. idb is a lightweight wrapper around the IndexedDB API that makes it easier to use.  
-
-The text editor can be installed as a PWA, which means that it can be added to your home screen and launched like a native app. It is also offline compatible, so you can continue to work on your documents even when you don't have an internet connection.  
-
+Contains About Me, Experience, Skills, Projects, Contact, Email, Footer 
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>

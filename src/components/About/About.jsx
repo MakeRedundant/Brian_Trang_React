@@ -15,17 +15,17 @@ const About = () => {
           <div className="about-text">
             <div className="text-box">
               <p>
-                As an optometrist, I worked in a wide range of fields including
+                As an Optometrist, I worked in a wide range of fields including
                 Paediatrics, Refractive (LASIK), Glaucoma, Orthoptics, and Retinal.
                 <br />
                 After more than 5 years as an Optometrist, I have decided to
-                jump over to programming! <br />
+                jump over to programming! 👀 <br />
                 I enjoy studying <TypewriterComponent2 />.
               </p>
               <p>
                 When I'm not coding, you can find me watching YouTube coding tutorials or cat videos 🐱‍💻.
                 <br />
-                Look around, and I hope to hear back from you!
+                Look around, and I hope to hear back from you! 👋
               </p>
             </div>
           </div>

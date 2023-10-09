@@ -73,12 +73,11 @@ export default function Email() {
   const handleFormSubmit = (e) => {
     //prevent default on form
     e.preventDefault();
-//Check if email is valid
+//Checks if email is valid and returns a error message if not
     if (!validateEmail(email)) {
       setErrorMessage("Error! Email is invalid, please try again");
       return;
     }
-//Required to send email
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
       (result) => {
         console.log(result.text);
@@ -96,7 +95,7 @@ export default function Email() {
         });
       }
     );
-    //alert for user after submitting
+    //Alerts user after successful message sent
     setSubmission(`Thanks for your email ${name}. I'll be in contact 👍`);
 
     setName("");
