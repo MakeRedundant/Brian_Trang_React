@@ -56,7 +56,7 @@ export const Navbar = () => {
           className={activeNav === "#skills" ? "active" : ""}
           data-text="Skills"
         >
-          <i className="icon fa fa-code"></i>
+          <i className="far fa-file-code"></i>
         </a>
         <a
           href="#project"

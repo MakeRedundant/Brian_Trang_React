@@ -18,7 +18,7 @@ const NavBar2 = () => {
           Experience
         </a>
         <a href="#skills" data-text="Skills">
-          <i className="icon fa fa-code"></i>
+          <i className="far fa-file-code"></i>
           Skills
         </a>
         <a href="#project" data-text="Project">
