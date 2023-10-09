@@ -18,13 +18,12 @@ const About = () => {
                 As an optometrist, I worked in a wide range of fields including
                 Paediatrics, Refractive (LASIK), Glaucoma, Orthoptics, and Retinal.
                 <br />
-                After more than 5 years as an optometrist, I decided to jump over to programming!
+                After more than 5 years as an Optometrist, I have decided to
+                jump over to programming! <br />
+                I enjoy studying <TypewriterComponent2 />.
               </p>
               <p>
-                I enjoy studying <TypewriterComponent2 />
-              </p>
-              <p>
-                When I&apos;m not coding, you can find me watching YouTube coding tutorials or cat videos 🐱‍💻.
+                When I'm not coding, you can find me watching YouTube coding tutorials or cat videos 🐱‍💻.
                 <br />
                 Look around, and I hope to hear back from you!
               </p>
