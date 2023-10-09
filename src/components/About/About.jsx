@@ -17,12 +17,12 @@ const About = () => {
               <p>
                 {" "}
                 As a optometrist i worked in a wide range of fields including
-                Paedriatics, Refractive (LASIK), Glaucoma, Orthoptic and Retinal{" "}
+                Paedriatics, Refractive (LASIK), Glaucoma, Orthoptics and Retinal{" "}
                 <br />
                 And after more than 5 years as an Optometrist, I have decided to
                 jump over to programming! <br />
                 <p>
-                I also like <TypewriterComponent2 />
+                I enjoy studying <TypewriterComponent2 />
                 </p>
                 When I&apos;m not coding, you can find me watching YouTube
                 coding tutorials or cat videos 🐱‍💻.
