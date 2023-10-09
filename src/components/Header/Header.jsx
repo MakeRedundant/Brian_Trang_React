@@ -31,7 +31,7 @@ const Header = () => {
               based in Australia Sydney 🦘 🐨
             </p>
             <p>I like to eat good food 👔 and wear good clothes 🍔</p>
-            <br />
+            {/* <br /> */}
             <p>
               but I also like <TypewriterComponent />
             </p>
