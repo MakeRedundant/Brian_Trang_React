@@ -20,7 +20,7 @@ You stumbled onto something great have a look around!
 [![eslint-plugin-react-hooks](https://img.shields.io/badge/eslint--plugin--react--hooks-^4.6.0-ff6347.svg)]
 [![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)]
 [![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)]
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_ID_HERE)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Email, Footer 
@@ -65,86 +65,74 @@ Users can clone the code and run npm install to install the dependencies
  npm install 
 ```
 
-Afterwards they can run the command ```npm run start``` which will sequentially run ```npm run build``` and if  
-successful will run ```cd server && node server.js```
+Afterwards users can run the command ```npm run build``` which will run the Vite build process which will bundle the React source code
 ```pip
- npm run start
+npm run build
 ```
 
+Afterwards users can run the command ```npm run dev``` which will executes the vite command, which starts the development server provided by Vite  
+and allows users to run the code on their local host
+```pip
+npm run dev
+```
 This sequence ensures that your client-side code is built before starting the server.
 
-Otherwise this app requires the following installations.
 
-Express.js
+Otherwise this app requires use of the Vite application to be used as well as the following installations.
+
+Vite
 ```pip
- npm install express
+`npm create vite@latest`
 ```
 
-idb
+EmailJS
 ```pip
-  npm i idb
+npm i emailjs
 ```
 
-if-env
+EmailJS-Com
 ```pip
-  npm install if-env --save
+npm i emailjs-com
 ```
 
-Concurrently
+React Icons
 ```pip
-  npm install concurrently --save
+npm i react-icons
 ```
 
-Babel loader
+React Simple Typewriter
 ```pip
-  npm install -D babel-loader @babel/core @babel/preset-env webpack
+npm i react-simple-typewriter
 ```
 
-css-loader
+Semantic UI CSS
 ```pip
-  npm install --save-dev css-loader
+npm i semantic-ui-css
 ```
 
-style-loader
+Semantic UI React
 ```pip
-  npm install --save-dev style-loader
+npm i semantic-ui-react
 ```
 
-html-webpack-plugin
+ESLint
 ```pip
-  npm i --save-dev html-webpack-plugin
+npm i eslint
 ```
 
-http-server
+ESLint Plugin React
 ```pip
-  npm install http-server
+npm i eslint-plugin-react
 ```
 
-Webpack
+Netlify CLI
 ```pip
-  npm install --save-dev webpack
+npm i netlify-cli -g
 ```
 
-webpack-CLI
+React DOM
 ```pip
- npm install --save-dev webpack-cli
-``` 
-
-webpack-dev-server
-```pip
-  npm install webpack-dev-server --save-dev
-```
-
-webpack-pwa-manifest
-
-```pip
-  npm install --save-dev webpack-pwa-manifest
-```
-
-workbox-webpack-plugin
-
-```pip
-  npm i workbox-webpack-plugin
+npm i react-dom
 ```
   
 ## 💬Usage 
@@ -156,20 +144,19 @@ https://just-another-note-editor-955d38ae1da1.herokuapp.com/
 
 
 ## 🖼️Screenshot
-Screenshot of JATE Text Editor
-![JATE](./Assets/JATE_img.png)
+Screenshot of Header
+![Header](./assets/Header.png)
 
-Screenshot of JATE Text Editor Offline
-![JATE](./Assets/JATE-Offline.png)
+Screenshot of Projects
+![Project](./assets/Projects.png)
 
-Screenshot of JATE Text Editor Console with service worker, cache storage, indexed DB
-![JATE](./Assets/Text-Editor-App.png)
-
-
+Screenshot of Email and Footer
+![Email](./assets/Email%20and%20footer.png)
 
 ## 📹Video
-GIF Showing ```npm run start``` app manifest.json, service worker, indexedDB storage, installation, Network tab
-![JATE](./Assets/JATE.gif)
+GIF Showing ```npm run dev``` as well as the Header , About , Skills, Experience, Projects, Nav bar functionality  
+as well as Email functionality
+![GIF](./assets/Brian_website_React.gif)
 
   
 ## ⚖️License 
