@@ -27,29 +27,26 @@ Contains About Me, Experience, Skills, Projects, Contact, Email, Footer
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
-<p><a href="https://www.npmjs.com/package/dotenv">dotenv</a></p>
-<p><a href="https://www.npmjs.com/package/if-env">if-env</a></p>
-<p><a href="https://www.npmjs.com/package/concurrently">concurrently</a></p>
-<p><a href="https://www.npmjs.com/package/nodemon">nodemon</a></p>
-<p><a href="https://www.npmjs.com/package/code-mirror-themes">code-mirror-themes</a></p>
-<p><a href="https://www.npmjs.com/package/idb">idb</a></p>
-<p><a href="https://www.npmjs.com/package/@babel/core">@babel/core</a></p>
-<p><a href="https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread">@babel/plugin-proposal-object-rest-spread</a></p>
-<p><a href="https://www.npmjs.com/package/@babel/plugin-transform-runtime">@babel/plugin-transform-runtime</a></p>
-<p><a href="https://www.npmjs.com/package/@babel/preset-env">@babel/preset-env</a></p>
-<p><a href="https://www.npmjs.com/package/@babel/runtime">@babel/runtime</a></p>
-<p><a href="https://www.npmjs.com/package/babel-loader">babel-loader</a></p>
-<p><a href="https://www.npmjs.com/package/css-loader">css-loader</a></p>
-<p><a href="https://www.npmjs.com/package/html-webpack-plugin">html-webpack-plugin</a></p>
-<p><a href="https://www.npmjs.com/package/http-server">http-server</a></p>
-<p><a href="https://www.npmjs.com/package/style-loader">style-loader</a></p>
-<p><a href="https://www.npmjs.com/package/webpack">webpack</a></p>
-<p><a href="https://www.npmjs.com/package/webpack-cli">webpack-cli</a></p>
-<p><a href="https://www.npmjs.com/package/webpack-dev-server">webpack-dev-server</a></p>
-<p><a href="https://www.npmjs.com/package/webpack-pwa-manifest">webpack-pwa-manifest</a></p>
-<p><a href="https://www.npmjs.com/package/workbox-webpack-plugin">workbox-webpack-plugin</a></p>
-<p><a href="https://www.heroku.com/">Heroku</a></p>
+<p><a href="https://fontawesome.com/">Font Awesome</a></p>
+<p><a href="https://fontawesome.com/">Font Awesome (React)</a></p>
+<p><a href="https://www.emailjs.com/">EmailJS</a></p>
+<p><a href="https://www.emailjs.com/">EmailJS (Com)</a></p>
+<p><a href="https://www.npmjs.com/package/install">Install</a></p>
+<p><a href="https://reactjs.org/">React</a></p>
+<p><a href="https://reactjs.org/">React DOM</a></p>
+<p><a href="https://react-icons.github.io/react-icons/">React Icons</a></p>
+<p><a href="https://www.npmjs.com/package/react-simple-typewriter">React Simple Typewriter</a></p>
+<p><a href="https://semantic-ui.com/">Semantic UI CSS</a></p>
+<p><a href="https://react.semantic-ui.com/">Semantic UI React</a></p>
+<p><a href="https://sweetalert2.github.io/">SweetAlert2</a></p>
+<p><a href="https://github.com/vitejs/vite">Vite (Plugin React)</a></p>
+<p><a href="https://eslint.org/">ESLint</a></p>
+<p><a href="https://eslint.org/">ESLint (Plugin React)</a></p>
+<p><a href="https://www.npmjs.com/package/eslint-plugin-react-hooks">ESLint (Plugin React Hooks)</a></p>
+<p><a href="https://www.npmjs.com/package/eslint-plugin-react-refresh">ESLint (Plugin React Refresh)</a></p>
+<p><a href="https://vitejs.dev/">Vite</a></p>
+<p><a href="https://www.netlify.com/">Netlify</a></p>
+
   
 ## 📓 Table of Contents
 - [Installation](#%EF%B8%8FInstallation)
