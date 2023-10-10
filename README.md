@@ -8,7 +8,6 @@ https://brian-trang-portfolio.netlify.app/
 ![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-^0.2.0-9acd32.svg)
 ![emailjs](https://img.shields.io/badge/emailjs-^4.0.3-ffa500.svg)
 ![emailjs-com](https://img.shields.io/badge/emailjs--com-^3.2.0-00ced1.svg)
-![install](https://img.shields.io/badge/install-^0.13.0-32cd32.svg)
 ![react](https://img.shields.io/badge/react-^18.2.0-ffa07a.svg)
 ![react-dom](https://img.shields.io/badge/react--dom-^18.2.0-40e0d0.svg)
 ![react-icons](https://img.shields.io/badge/react--icons-^4.11.0-8a2be2.svg)
@@ -25,7 +24,7 @@ https://brian-trang-portfolio.netlify.app/
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04d5add2-6f3b-494b-9a08-2d035a21782c/deploy-status)](https://app.netlify.com/sites/brian-trang-portfolio/deploys)
 
 ## 📄 Description 
-Contains About Me, Experience, Skills, Projects, Contact, Email, Footer 
+Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
@@ -33,7 +32,6 @@ Contains About Me, Experience, Skills, Projects, Contact, Email, Footer
 <p><a href="https://fontawesome.com/">Font Awesome (React)</a></p>
 <p><a href="https://www.emailjs.com/">EmailJS</a></p>
 <p><a href="https://www.emailjs.com/">EmailJS (Com)</a></p>
-<p><a href="https://www.npmjs.com/package/install">Install</a></p>
 <p><a href="https://reactjs.org/">React</a></p>
 <p><a href="https://reactjs.org/">React DOM</a></p>
 <p><a href="https://react-icons.github.io/react-icons/">React Icons</a></p>
