@@ -2,24 +2,24 @@
 You stumbled onto something great have a look around!  
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
-[![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^6.4.2-ff69b4.svg)]
-[![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-^0.2.0-9acd32.svg)]
-[![emailjs](https://img.shields.io/badge/emailjs-^4.0.3-ffa500.svg)]
-[![emailjs-com](https://img.shields.io/badge/emailjs--com-^3.2.0-00ced1.svg)]
-[![install](https://img.shields.io/badge/install-^0.13.0-32cd32.svg)]
-[![react](https://img.shields.io/badge/react-^18.2.0-ffa07a.svg)]
-[![react-dom](https://img.shields.io/badge/react--dom-^18.2.0-40e0d0.svg)]
-[![react-icons](https://img.shields.io/badge/react--icons-^4.11.0-8a2be2.svg)]
-[![react-simple-typewriter](https://img.shields.io/badge/react--simple--typewriter-^5.0.1-00ff7f.svg)]
-[![semantic-ui-css](https://img.shields.io/badge/semantic--ui--css-^2.5.0-ffa500.svg)]
-[![semantic-ui-react](https://img.shields.io/badge/semantic--ui--react-^2.1.4-87ceeb.svg)]
-[![sweetalert2](https://img.shields.io/badge/sweetalert2-^11.7.32-ff4500.svg)]
-[![@vitejs/plugin-react](https://img.shields.io/badge/@vitejs/plugin--react-^4.0.3-4169e1.svg)]
-[![eslint](https://img.shields.io/badge/eslint-^8.45.0-32cd32.svg)]
-[![eslint-plugin-react](https://img.shields.io/badge/eslint--plugin--react-^7.32.2-00ff00.svg)]
-[![eslint-plugin-react-hooks](https://img.shields.io/badge/eslint--plugin--react--hooks-^4.6.0-ff6347.svg)]
-[![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)]
-[![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)]
+![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^6.4.2-ff69b4.svg)
+![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-^0.2.0-9acd32.svg)
+![emailjs](https://img.shields.io/badge/emailjs-^4.0.3-ffa500.svg)
+![emailjs-com](https://img.shields.io/badge/emailjs--com-^3.2.0-00ced1.svg)
+![install](https://img.shields.io/badge/install-^0.13.0-32cd32.svg)
+![react](https://img.shields.io/badge/react-^18.2.0-ffa07a.svg)
+![react-dom](https://img.shields.io/badge/react--dom-^18.2.0-40e0d0.svg)
+![react-icons](https://img.shields.io/badge/react--icons-^4.11.0-8a2be2.svg)
+![react-simple-typewriter](https://img.shields.io/badge/react--simple--typewriter-^5.0.1-00ff7f.svg)
+![semantic-ui-css](https://img.shields.io/badge/semantic--ui--css-^2.5.0-ffa500.svg)
+![semantic-ui-react](https://img.shields.io/badge/semantic--ui--react-^2.1.4-87ceeb.svg)
+![sweetalert2](https://img.shields.io/badge/sweetalert2-^11.7.32-ff4500.svg)
+![@vitejs/plugin-react](https://img.shields.io/badge/@vitejs/plugin--react-^4.0.3-4169e1.svg)
+![eslint](https://img.shields.io/badge/eslint-^8.45.0-32cd32.svg)
+![eslint-plugin-react](https://img.shields.io/badge/eslint--plugin--react-^7.32.2-00ff00.svg)
+![eslint-plugin-react-hooks](https://img.shields.io/badge/eslint--plugin--react--hooks-^4.6.0-ff6347.svg)
+![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)
+![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ## 📄 Description 
