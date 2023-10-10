@@ -1,5 +1,5 @@
 # Brian Trang || Portoflio 
-You stumbled onto something great have a look around !
+You stumbled onto something great have a look around!  
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
 [![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^6.4.2-ff69b4.svg)]
@@ -21,9 +21,6 @@ You stumbled onto something great have a look around !
 [![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)]
 [![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)]
 [![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_ID_HERE)
-
-
-
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Email, Footer 
@@ -154,7 +151,8 @@ workbox-webpack-plugin
 ```
   
 ## 💬Usage 
-Users can utilise this web application to take notes that runs in the browser. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+
+Have a look around !!
 
 Link to deployed application
 https://just-another-note-editor-955d38ae1da1.herokuapp.com/
