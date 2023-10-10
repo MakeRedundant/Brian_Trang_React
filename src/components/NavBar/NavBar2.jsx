@@ -31,7 +31,7 @@ const NavBar2 = () => {
         </a>
         <a href="#contact" data-text="Contact">
           <i className="far fa fa-phone"></i>
-          Contact
+          Contact || Resume
         </a>
       </div>
     </nav>
