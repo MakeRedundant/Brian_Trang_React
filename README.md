@@ -22,7 +22,7 @@ https://brian-trang-portfolio.netlify.app/
 ![eslint-plugin-react-hooks](https://img.shields.io/badge/eslint--plugin--react--hooks-^4.6.0-ff6347.svg)
 ![eslint-plugin-react-refresh](https://img.shields.io/badge/eslint--plugin--react--refresh-^0.4.3-ffa07a.svg)
 ![vite](https://img.shields.io/badge/vite-^4.4.5-9400d3.svg)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04d5add2-6f3b-494b-9a08-2d035a21782c/deploy-status)](https://app.netlify.com/sites/brian-trang-portfolio/deploys)
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Email, Footer 
@@ -158,8 +158,7 @@ Screenshot of Email and Footer
 ## 📹Video
 GIF Showing ```npm run dev``` as well as the Header , About , Skills, Experience, Projects, Nav bar functionality  
 as well as Email functionality
-![GIF](./assets/Brian_website_React.gif)
-
+![GIF](./assets/Brian_React.gif)
   
 ## ⚖️License 
 This project is licensed under MIT
