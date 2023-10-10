@@ -1,5 +1,7 @@
 # Brian Trang || Portoflio 
 You stumbled onto something great have a look around!  
+https://brian-trang-portfolio.netlify.app/   
+
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
 ![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^6.4.2-ff69b4.svg)
@@ -140,7 +142,7 @@ npm i react-dom
 Have a look around !!
 
 Link to deployed application
-https://just-another-note-editor-955d38ae1da1.herokuapp.com/
+https://brian-trang-portfolio.netlify.app/
 
 
 ## 🖼️Screenshot
