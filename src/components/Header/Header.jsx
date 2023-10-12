@@ -30,7 +30,7 @@ const Header = () => {
               My name is Brian, and I&apos;m a software engineer <br />
               based in Australia Sydney 🦘 🐨
             </p>
-            <p>I like to eat good food 👔 and wear good clothes 🍔</p>
+            <p>I like to eat good clothes 👔 and wear good food 🍔</p>
             {/* <br /> */}
             <p>
               but I also like <TypewriterComponent />
