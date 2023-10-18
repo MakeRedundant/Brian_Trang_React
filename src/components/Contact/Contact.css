@@ -1,4 +1,7 @@
 /* !!!!!!!Contact Section !!!!!*/
+#contact {
+  padding-top: 20%;
+}
 
 .contact-container {
   display: flex;

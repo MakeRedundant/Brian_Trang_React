@@ -26,12 +26,31 @@ export const Navbar = () => {
     };
   }, []);
 
+  const handleClick = (e, sectionId) => {
+    e.preventDefault();
+
+    if (activeNav !== sectionId) {
+      setActiveNav(sectionId);
+    }
+
+    if (sectionId === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      const section = document.querySelector(sectionId);
+      if (section) {
+        const offsetTop = section.offsetTop + 5;
+        window.scrollTo({ top: offsetTop, behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <div>
       {/* First Navigation Bar */}
       <nav className="navbar-container">
         <a
           href="#header"
+          onClick={(e) => handleClick(e, "#header")}
           className={activeNav === "#header" ? "active" : ""}
           data-text="Home"
         >
@@ -39,6 +58,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#about"
+          onClick={(e) => handleClick(e, "#about")}
           className={activeNav === "#about" ? "active" : ""}
           data-text="About"
         >
@@ -46,6 +66,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#experience"
+          onClick={(e) => handleClick(e, "#experience")}
           className={activeNav === "#experience" ? "active" : ""}
           data-text="Experience"
         >
@@ -53,6 +74,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#skills"
+          onClick={(e) => handleClick(e, "#skills")}
           className={activeNav === "#skills" ? "active" : ""}
           data-text="Skills"
         >
@@ -60,6 +82,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#project"
+          onClick={(e) => handleClick(e, "#project")}
           className={activeNav === "#project" ? "active" : ""}
           data-text="Project"
         >
@@ -67,6 +90,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#education"
+          onClick={(e) => handleClick(e, "#education")}
           className={activeNav === "#education" ? "active" : ""}
           data-text="Education"
         >
@@ -74,6 +98,7 @@ export const Navbar = () => {
         </a>
         <a
           href="#contact"
+          onClick={(e) => handleClick(e, "#contact")}
           className={activeNav === "#contact" ? "active" : ""}
           data-text="Contact"
         >
