@@ -15,7 +15,7 @@ const USER_ID = "dNo7JEuizWBnqYSMg";
 const SERVICE_ID = "service_lv2pvc8";
 
 // !!!!!Refer to this !!!!!!!!!!!!
-//https://plainenglish.io/blog/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3 
+//https://plainenglish.io/blog/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 
 export default function Email() {
   //Define states

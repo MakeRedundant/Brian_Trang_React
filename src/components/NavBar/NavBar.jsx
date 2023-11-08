@@ -50,7 +50,7 @@ export const Navbar = () => {
       <nav className="navbar-container">
         <a
           href="#header"
-          onClick={(e) => handleClick(e, "#header")}
+          onClick={(e) => handleClick(e, "#")}
           className={activeNav === "#header" ? "active" : ""}
           data-text="Home"
         >
