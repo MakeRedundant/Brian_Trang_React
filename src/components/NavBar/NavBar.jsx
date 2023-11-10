@@ -11,13 +11,14 @@ export const Navbar = () => {
 
       for (let i = 0; i < sections.length; i++) {
         const section = sections[i];
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 0) {
-          activeSection = "#" + section.getAttribute("id");
-        }
+        setTimeout(() => {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= 0) {
+            activeSection = "#" + section.getAttribute("id");
+          }
+          setActiveNav(activeSection);
+        }, 700);
       }
-
-      setActiveNav(activeSection);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -49,15 +50,15 @@ export const Navbar = () => {
       {/* First Navigation Bar */}
       <nav className="navbar-container">
         <a
-          href="#header"
+          href="/#"
           onClick={(e) => handleClick(e, "#")}
-          className={activeNav === "#header" ? "active" : ""}
+          className={activeNav === "#" ? "active" : ""}
           data-text="Home"
         >
           <i className="far fa fa-home"></i>
         </a>
         <a
-          href="#about"
+          href="/#about"
           onClick={(e) => handleClick(e, "#about")}
           className={activeNav === "#about" ? "active" : ""}
           data-text="About"
@@ -65,7 +66,7 @@ export const Navbar = () => {
           <i className="far fa-user"></i>
         </a>
         <a
-          href="#experience"
+          href="/#experience"
           onClick={(e) => handleClick(e, "#experience")}
           className={activeNav === "#experience" ? "active" : ""}
           data-text="Experience"
@@ -73,7 +74,7 @@ export const Navbar = () => {
           <i className="fas fa-briefcase"></i>
         </a>
         <a
-          href="#skills"
+          href="/#skills"
           onClick={(e) => handleClick(e, "#skills")}
           className={activeNav === "#skills" ? "active" : ""}
           data-text="Skills"
@@ -81,7 +82,7 @@ export const Navbar = () => {
           <i className="far fa-file-code"></i>
         </a>
         <a
-          href="#project"
+          href="/#project"
           onClick={(e) => handleClick(e, "#project")}
           className={activeNav === "#project" ? "active" : ""}
           data-text="Project"
@@ -89,7 +90,7 @@ export const Navbar = () => {
           <i className="far fa-folder-open"></i>
         </a>
         <a
-          href="#education"
+          href="/#education"
           onClick={(e) => handleClick(e, "#education")}
           className={activeNav === "#education" ? "active" : ""}
           data-text="Education"
@@ -97,7 +98,7 @@ export const Navbar = () => {
           <i className="far fa fa-school"></i>
         </a>
         <a
-          href="#contact"
+          href="/#contact"
           onClick={(e) => handleClick(e, "#contact")}
           className={activeNav === "#contact" ? "active" : ""}
           data-text="Contact"
