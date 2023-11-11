@@ -21,7 +21,7 @@ const About = () => {
             </h3>
             <p className="terminal__content">
 
-                As an Optometrist, I worked in a wide range of fields including
+                As an Optometrist 👨‍⚕️, I worked in a wide range of fields including
                 Paediatrics, Refraction (LASIK), Glaucoma, Orthoptics, and Retinal
                 and after more than 5 years, I have decided to
                 jump over to programming! 👀 <br />
@@ -34,8 +34,9 @@ const About = () => {
             </h3>
             <p className="terminal__content">
                 I enjoy <span className="text-highlight">learning and coding!</span> I believe consistent learning,
-                being fexible and being an all around fun person to work with makes coding fun!
-                When not coding, you can find me watching YouTube coding tutorials or cat videos 🐱‍💻.
+                fexibility and being an all around fun person to work with makes coding fun! 🧑‍💻
+                When not coding, you can find me drinking tea 🍵 or watching YouTube coding tutorials or cat videos 🐱‍💻.
+              <br/>
                 Look around, and I hope to hear back from you! 👋
             </p>
             <div className="card-socials">
