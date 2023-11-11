@@ -38,6 +38,36 @@ const About = () => {
                 When not coding, you can find me watching YouTube coding tutorials or cat videos 🐱‍💻.
                 Look around, and I hope to hear back from you! 👋
             </p>
+            <div className="card-socials">
+              <a
+                className="card-socials-btn download-resume"
+                href="https://drive.google.com/drive/folders/178aJT71OVJzvM4JJm0IqHat_YxyOVq7O?usp=drive_link"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                data-tooltip="Download Resume"
+              >
+                <i className="far fa-file-pdf about__icons"></i>
+              </a>
+              <a
+                className="card-socials-btn"
+                href="https://github.com/MakeRedundant"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                data-tooltip="GitHub"
+              >
+                <i className="fab fa-github about__icons"></i>
+              </a>
+              <a
+                className="card-socials-btn icon"
+                href="https://www.linkedin.com/in/brian-t-99916a118/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+                data-tooltip="LinkedIn"
+              >
+                <i className="fab fa-linkedin about__icons"></i>
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
