@@ -4,15 +4,106 @@
 
 .first-section {
     padding-top: 20%;
+    align-content: center;
 }
 
-.about-text {
-  font-size: larger;
-  height: 75%;
-  max-width: 100%;
-  text-wrap: wrap;
-  overflow: hidden;
-  padding: 1rem;
-  border-radius: 15px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+.terminal_toolbar {
+	display: flex;
+	height: 50px;
+	width: 100%;
+	align-items: center;
+	padding: 0 8px;
+	box-sizing: border-box;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: linear-gradient(#504b45 0%, #3c3b37 100%);
 }
+.terminal-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 23%;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin-right: 5px;
+	font-size: 1.8rem;
+	height: 1.4rem;
+	width: 1.4rem;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 100%;
+	background: linear-gradient(#7d7871 0%, #595953 100%);
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 1px 0px #41403a, 0px 1px 1px 0px #474642;
+}
+
+.btn__red {
+	background: #ee411a;
+}
+
+.btn__yellow {
+	background: #ffae00;
+}
+.btn__green {
+	background: #15ff00;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.user {
+	color: #d5d0ce;
+	margin-left: 6px;
+	font-size: 1.5rem;
+	line-height: 15px;
+	font-family: 'Fira Code', monospace;}
+
+.terminal__format{
+    animation: myAnim 1s ease 4s 1 normal forwards;
+	background: rgb(22 0 54);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+	width: 95%;
+
+}
+
+.terminal__content{
+	font-size: 1.9rem;
+    text-align: left;
+    padding: 1rem;
+	width: 100%;
+	font-family: 'Fira Code', monospace;
+}
+ 
+.terminal__content p{
+    color: rgb(250, 250, 249);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+	font-family: 'Fira Code', monospace;    line-height: 1.5;
+}
+.terminal__content h3{
+    color: var(--pink-terminal);
+	font-family: 'Fira Code', monospace;
+}
+.terminal__content span{
+    color: chartreuse;
+    font-weight: 500;
+	font-family: 'Fira Code', monospace;}
+
+
+
+/* @media (min-width:768px){
+	.terminal__format{
+		max-width: 70rem;
+	}
+} */
