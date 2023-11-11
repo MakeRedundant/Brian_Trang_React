@@ -35,7 +35,7 @@ const About = () => {
             <p className="terminal__content">
                 I enjoy <span className="text-highlight">learning and coding!</span> I believe consistent learning,
                 fexibility and being an all around fun person to work with makes coding fun! 🧑‍💻
-                When not coding, you can find me drinking tea 🍵 or watching YouTube coding tutorials or cat videos 🐱‍💻.
+                When not coding, you can find me drinking tea 🍵, board games with friends 🎲 or watching YouTube coding tutorials or cat videos 🐱‍💻.
               <br/>
                 Look around, and I hope to hear back from you! 👋
             </p>
