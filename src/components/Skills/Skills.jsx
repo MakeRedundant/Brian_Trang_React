@@ -44,90 +44,91 @@ const Skills = () => {
           <i className="devicon-docker-plain colored"></i>
           <i className="devicon-bash-plain"></i>
           <i className="devicon-codepen-plain"></i>
-          <p>My preferred tools for version control, code editing, and container orchestration.</p>
+          <i className="devicon-jest-plain colored"></i>
+          <p>My preferred tools for code editing, sharing, wireframes, communication and testing</p>
         </div>
       </div>
       <h2>My Tools</h2>
-      <div className="tools__caja__slider">
+      <div className="tools-slider">
         <div className="slider">
-          <div className="tools__cajas">
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-slack tools__icono tool__dark"></i>
+          <div className="tools-wrapper">
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-slack tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Slack</span>
+              <span className="tools-description">Slack</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-git tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-git tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Git</span>
+              <span className="tools-description">Git</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-gitlab tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-gitlab tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Gitlab</span>
+              <span className="tools-description">Gitlab</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-cogs tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-cogs tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Insomnia</span>
+              <span className="tools-description">Insomnia</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-building tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-building tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Microsoft office</span>
+              <span className="tools-description">Microsoft office</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-users tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-users tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Teams</span>
+              <span className="tools-description">Teams</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-figma tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-figma tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Figma</span>
+              <span className="tools-description">Figma</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-vuejs tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-vuejs tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Vite</span>
+              <span className="tools-description">Vite</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-code tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-code tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Vscode</span>
+              <span className="tools-description">Vscode</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-docker tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-docker tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Docker</span>
+              <span className="tools-description">Docker</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fab fa-git-square tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fab fa-git-square tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Git bash</span>
+              <span className="tools-description">Git bash</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-terminal tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-terminal tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Terminal</span>
+              <span className="tools-description">Terminal</span>
             </div>
-            <div className="tools__grupo">
-              <div className="tools__caja caja__dark">
-                <i className="fas fa-dollar-sign tools__icono tool__dark"></i>
+            <div className="tools-group">
+              <div className="tools-icon-group">
+                <i className="fas fa-dollar-sign tools-icon"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">Stripe</span>
+              <span className="tools-description">Stripe</span>
             </div>
           </div>
         </div>

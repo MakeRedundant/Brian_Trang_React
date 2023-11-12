@@ -1,3 +1,4 @@
+
 .tech {
   margin: 10px
 }
@@ -12,13 +13,17 @@
 }
 
 .user-skills p {
-  font-size: 16px
+  font-size: 16px;
+  padding: 10px;
 }
 
 @media only screen and (min-width:550px) {
   .user-skills {
       flex-wrap: nowrap;
       font-size: 75px
+  }
+  .tools-icon-group {
+    font-size: 60px;
   }
 }
 
@@ -29,29 +34,22 @@
 
 .tools{
   display: flex;
-  position: relative;
+  position: row;
   flex-direction: column;
   height: 40vh;
   justify-content: flex-end;
   margin-top: 35px;
-  padding-top: 40%;
+  padding-top: 100%;
 
 }
-.tools__titulo{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
+.tools-slider{
   display: flex;
-  justify-content: center;
-  margin: 0;
-}
-.tools__caja__slider{
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   overflow: hidden;
 }
 
-.tools__caja__slider:hover .slider{
+.tools-slider:hover .slider{
   animation-play-state: paused;
   white-space: nowrap;
 }
@@ -70,7 +68,8 @@
       transform: translateX(-590%);
   }
 }
-.tools__cajas{
+
+.tools-wrapper{
   display: flex;
   gap: 40px;
   align-items: center;
@@ -78,16 +77,25 @@
   height: 164px;
   width: -23px;
 }
-.tools__grupo{
+
+.tools-icon-groups{
   display: flex;
-  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  white-space: nowrap;
+  height: 164px;
+  width: -23px;
+}
+.tools-group{
+  display: flex;
+  flex-direction: row;
   width: 100%;
   align-items: center;
   height: 103px;
   padding: 2px;
   justify-content: space-around;
 }
-.tools__caja{
+.tools-icon-group{
   display: flex;
   height: 60px;
   width: 60px;
@@ -102,15 +110,15 @@
   justify-content: center;
   align-items: center;
 }
-.tools__caja:hover{
+.tools-icon-group:hover{
   transform: scale(1.2);
 }
-.tools__icono{
+.tools-icon{
   display: flex;
   flex-direction: column;
   width: 35px;
 }
-.tools__descripcion{
+.tools-description{
   display: flex;
   text-align: center;
   align-items:13px;
@@ -118,13 +126,12 @@
 
 /*TABLET VIEW */
 @media (min-width:678px){
-  .tools__titulo{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4rem;
-  }
   .tools{
       height: unset;
       margin-top: 163px;
+  }
+  .tools-icon-group {
+    font-size: 60px;
   }
   .slider{
       height: 36vh;
@@ -136,15 +143,17 @@
           transform: translateX(0);
       }
       to{
-          transform: translateX(-418%);
+          transform: translateX(-518%);
       }
   }
-  .tools__cajas{
+  
+.tools-wrapper{
       display: flex;
       height: 45vh;
       gap: 144px;
   }
-  .tools__grupo{
+
+  .tools-group{
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -153,7 +162,7 @@
       padding: 2px;
       justify-content: space-around;
   }
-  .tools__caja{
+  .tools-icon-group{
       width: 90px;
       height: 90px;
       min-width: 90px;
@@ -163,10 +172,10 @@
       justify-content: center;
       align-items: center;
   }
-  .tools__icono{
+  .tools-icon{
       width: 53px;
   }
-  .tools__descripcion{
+  .tools-description{
       display: flex;
       text-align: center;
       align-items: center;
@@ -176,20 +185,15 @@
       display: none;
   }
 
-  .tools__grupo:hover .tools__descripcion{
+  .tools-group:hover .tools-description{
       display:inline-block;
   }
 }
   
 /* DESKTOP VIEW */
 @media (min-width:1200px){
-  .tools__titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
-    margin-top: 0;
-  }
   .slider {
-    animation: slide 15s  infinite;
+    animation: slide 35s  infinite;
     height: 42vh;
     min-height: 237px;
     white-space: nowrap;
@@ -202,17 +206,17 @@
       transform: translateX(-150%);
     }
   }
-  .tools__cajas {
+  .tools-wrapper {
     display: flex;
     height: 34vh;
   }
-  .tools__caja {
+  .tools-icon-group {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 70px;
   }
-  .tools__icono {
+  .tools-icon {
     width: 80%;
     height: auto;
   }
@@ -229,7 +233,7 @@
 }
 
 @media (max-width: 768px) {
-  .tools__icono {
+  .tools-icon {
     height: auto;
     font-size: 100%;
   }
