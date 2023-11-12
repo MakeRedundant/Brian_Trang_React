@@ -58,7 +58,7 @@
   display: inline-block;
   height: 19vh;
   min-height: 264px;
-  animation: 35s slide infinite linear;
+  animation: 90s slide infinite linear;
 }
 @keyframes slide{
   from{
@@ -136,7 +136,7 @@
   .slider{
       height: 36vh;
       min-height: 331px;
-      animation: 30s slide infinite linear;
+      animation: 90s slide infinite linear;
       }
   @keyframes slide{
       from{
@@ -193,7 +193,7 @@
 /* DESKTOP VIEW */
 @media (min-width:1200px){
   .slider {
-    animation: slide 35s  infinite;
+    animation: slide 90s  infinite;
     height: 42vh;
     min-height: 237px;
     white-space: nowrap;
