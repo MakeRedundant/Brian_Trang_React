@@ -133,13 +133,19 @@ const Projects = () => {
               Built with the cutting-edge MERN stack (MongoDB, Express, React,
               Node.js).
               <br />
-              <span className="features-header">Features</span><br/>
-              Complaint Creation and Management: Users can create, edit, and delete their own posts effortlessly <br/>
-              Featured Posts: The platform showcases the top-voted posts as featured complaints on the homepage <br/>
-              Rich Multimedia Support: Complain.com allows users to enrich their posts by uploading images <br/>
-              Email Component: The contact page features an email component powered by email.js <br/>
-              Sleek UI/UX: Complain.com was rendered using React and styled with Material-UI, Styled Components, and Emotion Styled. <br/>
-              <br/>
+              <span className="features-header">Features</span>
+              <br />
+              Complaint Creation and Management: Users can create, edit, and
+              delete their own posts effortlessly <br />
+              Featured Posts: The platform showcases the top-voted posts as
+              featured complaints on the homepage <br />
+              Rich Multimedia Support: Complain.com allows users to enrich their
+              posts by uploading images <br />
+              Email Component: The contact page features an email component
+              powered by email.js <br />
+              Sleek UI/UX: Complain.com was rendered using React and styled with
+              Material-UI, Styled Components, and Emotion Styled. <br />
+              <br />
               <span className="features-header">Tech Stack Used:</span>
             </p>
             <TechStackIcons />
@@ -227,6 +233,8 @@ const Projects = () => {
         <a
           href="https://github.com/MakeRedundant?tab=repositories"
           className="github-button"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i> More projects
         </a>
