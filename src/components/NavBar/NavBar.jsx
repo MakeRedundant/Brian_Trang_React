@@ -1,25 +1,6 @@
-import React, { useEffect } from "react";
 import "./NavBar.css";
 
 export const Navbar = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = document.querySelectorAll("section");
-      const firstVisibleSection = [...sections].find((section) => {
-        const rect = section.getBoundingClientRect();
-        return rect.top <= 0;
-      });
-      if (firstVisibleSection) {
-        const sectionId = "#" + firstVisibleSection.getAttribute("id");
-        console.log("Active Section:", sectionId);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const handleClick = (e, sectionId) => {
     e.preventDefault();
 
@@ -33,6 +14,7 @@ export const Navbar = () => {
       }
     }
   };
+
 
   return (
     <div>
