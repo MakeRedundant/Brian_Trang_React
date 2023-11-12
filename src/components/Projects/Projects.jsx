@@ -5,6 +5,7 @@ import PROJECT3 from "../../assets/Marvel Characters.gif";
 import PROJECT4 from "../../assets/Tech Blog.gif";
 import PROJECT5 from "../../assets/Weather Forecast.gif";
 import PROJECT6 from "../../assets/ReadMe Generator.gif";
+import Mainproject from "../../assets/Complain.com.gif";
 import { useState } from "react";
 
 const projectData = [
@@ -102,8 +103,27 @@ const Projects = () => {
 
   return (
     <section id="project" className="project">
+      <h1>Featured Project</h1>
+      <div className="Main-Project">
+        <div className="Complain-gif">
+          <img src="../../assets/Complain.com" alt="Complain gif" className="Complain"></img>
+        </div>
+        <div className="Main-container">
+          <div className="text-box">
+            <p>Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt
+              and
+              The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.
+            </p>
+          </div>
+          <div className="button-container">
+            <a href="https://github.com/jarrodbb/your-complaint" className="button" target="_blank" rel="noreferrer">Source
+              Code</a>
+            <a href="https://your-complaint-b9ee4991068a.herokuapp.com" className="button" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </div>
+      </div>
       <h1>Projects</h1>
-      <h5>Check out my stuff here!</h5>
+      <p>Check out my stuff here!</p>
       <div className="container project-container">
         {projectData.map(
           ({ id, image, title, category, description, tags, Live, Source }) => {
