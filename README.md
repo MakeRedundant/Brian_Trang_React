@@ -27,6 +27,8 @@ https://brian-trang-portfolio.netlify.app/
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
+also contains humour!  
+ 
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
