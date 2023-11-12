@@ -6,6 +6,7 @@ https://brian-trang-portfolio.netlify.app/
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
 ![@fortawesome/free-brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-6.4.2-ff69b4.svg)
 ![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-0.2.0-9acd32.svg)
+![devicon](https://img.shields.io/badge/devicon-2.15.1-<random_color>.svg)
 ![emailjs](https://img.shields.io/badge/emailjs-4.0.3-ffa500.svg)
 ![emailjs-com](https://img.shields.io/badge/emailjs--com-3.2.0-00ced1.svg)
 ![react](https://img.shields.io/badge/react-18.2.0-ffa07a.svg)
