@@ -140,9 +140,9 @@ const Projects = () => {
               Email Component: The contact page features an email component powered by email.js <br/>
               Sleek UI/UX: Complain.com was rendered using React and styled with Material-UI, Styled Components, and Emotion Styled. <br/>
               <br/>
-              <span className="features-header">Tech Stack Used:</span><br/>
-              <TechStackIcons />
+              <span className="features-header">Tech Stack Used:</span>
             </p>
+            <TechStackIcons />
           </div>
           <div className="button-container">
             <a
