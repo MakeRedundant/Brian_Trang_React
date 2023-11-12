@@ -7,6 +7,19 @@
   align-content: center;
 }
 
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  min-width: 308px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 500;
+  padding: 0 0 2rem 0;
+}
+
 .terminal_toolbar {
   display: flex;
   height: 50px;
@@ -137,8 +150,10 @@
 	font-size: 30px;
   }
 
-/* @media (min-width:768px){
-	.terminal__format{
-		max-width: 70rem;
-	}
-} */
+
+  @media (max-width: 768px) {
+    #about {
+      margin-bottom: 20%;
+      padding-bottom: 100rem;
+    }
+  }

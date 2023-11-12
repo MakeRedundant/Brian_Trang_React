@@ -47,7 +47,7 @@ const Skills = () => {
               <div className="tools__caja caja__dark">
                 <i className="fab fa-figma tools__icono tool__dark"></i>
               </div>
-              <span className="tools__descripcion titulo__dark">figma</span>
+              <span className="tools__descripcion titulo__dark">Figma</span>
             </div>
             <div className="tools__grupo">
               <div className="tools__caja caja__dark">

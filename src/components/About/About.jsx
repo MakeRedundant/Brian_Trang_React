@@ -3,9 +3,9 @@ import { TypewriterComponent2 } from "../utils/Typewriter/Typewriter2";
 
 const About = () => {
   return (
-    <div className="first-section">
-      <section id="about">
-        <h1>About</h1>
+    <section id="about">
+      <h1>About</h1>
+      <div className="section__wrapper">
         <div className="terminal__format">
           <div className=" terminal_toolbar">
             <div className="terminal-button">
@@ -13,7 +13,7 @@ const About = () => {
               <button className="btn btn__yellow"></button>
               <button className="btn btn__green"></button>
             </div>
-            <p className="user">briandev@admin: ~</p>
+            <p className="user">briandev@admin: About ~</p>
           </div>
           <div className="terminal__content" id="text">
             <h3 className="terminal__content">
@@ -71,8 +71,8 @@ const About = () => {
 
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
