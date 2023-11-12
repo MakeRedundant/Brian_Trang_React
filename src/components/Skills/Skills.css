@@ -226,7 +226,7 @@
 @media (max-width: 768px) {
   #skills {
     margin-bottom: 20%;
-    padding-bottom: 50rem;
+    /* padding-bottom: 50rem; */
     /* padding-top: 90rem; */
     height: auto;
   }

@@ -154,6 +154,6 @@
   @media (max-width: 768px) {
     #about {
       margin-bottom: 20%;
-      padding-bottom: 100rem;
+      /* padding-bottom: 100rem; */
     }
   }
