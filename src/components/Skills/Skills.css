@@ -39,7 +39,7 @@
   height: 40vh;
   justify-content: flex-end;
   margin-top: 35px;
-  padding-top: 100%;
+  /* padding-top: 100%; */
 
 }
 .tools-slider{
@@ -227,7 +227,7 @@
   #skills {
     margin-bottom: 20%;
     padding-bottom: 50rem;
-    padding-top: 90rem;
+    /* padding-top: 90rem; */
     height: auto;
   }
 }

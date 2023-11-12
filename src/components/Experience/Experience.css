@@ -156,6 +156,6 @@
   @media (max-width: 768px) {
     #experience {
       margin-bottom: 20%;
-      padding-bottom: 100rem;
+      /* padding-bottom: 50rem; */
     }
   }
