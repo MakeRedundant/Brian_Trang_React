@@ -1,11 +1,11 @@
-#skills {
+/* #skills {
   padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
+} */
 
 .skills-table {
   font-size: 1.0rem;
@@ -186,41 +186,37 @@
   
 /* DESKTOP VIEW */
 @media (min-width:1200px){
-
-  .tools__titulo{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4rem;
-      margin-top: 0;
+  .tools__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin-top: 0;
   }
-  .slider{
-      animation: 40s slide infinite linear;
-      height: 42vh;
-      min-height: 237px;
-      
+  .slider {
+    animation: slide 15s  infinite;
+    height: 42vh;
+    min-height: 237px;
+    white-space: nowrap;
   }
-  @keyframes slide{
-      from{
-          transform: translateX(0);
-      }
-      to{
-          transform: translateX(-250%);
-      }
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-150%);
+    }
   }
-  .tools__cajas{
-      display: flex;
-      height: 34vh;
+  .tools__cajas {
+    display: flex;
+    height: 34vh;
   }
-  .tools__caja{
-      display: flex;
-      height: 125px;
-      width: 125px;
-      min-height: 125px;
-      min-width: 125px;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center;
-  } 
-  .tools__icono{
-      width: 65px;
+  .tools__caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+  }
+  .tools__icono {
+    width: 80%;
+    height: auto;
   }
 }
