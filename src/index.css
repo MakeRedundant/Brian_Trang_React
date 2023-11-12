@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+p {
+  font-size: larger;
+}
+
 :root {
   --color-bg: #1f1f38;
   --color-bg-project-card: #17176e;
