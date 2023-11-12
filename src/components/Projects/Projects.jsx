@@ -6,6 +6,7 @@ import PROJECT4 from "../../assets/Tech Blog.gif";
 import PROJECT5 from "../../assets/Weather Forecast.gif";
 import PROJECT6 from "../../assets/ReadMe Generator.gif";
 import Mainproject from "../../assets/Complain.com.gif";
+//import the gif directly instead of src it, helps with webpack and dynamic loading.
 import { useState } from "react";
 
 const projectData = [
@@ -94,6 +95,22 @@ const projectData = [
   },
 ];
 
+const TechStackIcons = () => (
+  <div className="tech-stack-icons">
+    <i className="fab fa-react" title="React"></i>
+    <i className="fas fa-database" title="MongoDB"></i>
+    <i className="fas fa-server" title="Express"></i>
+    <i className="fab fa-node" title="Node.js"></i>
+    <i className="fab fa-graphql" title="GraphQL"></i>
+    <i className="fab fa-node-js" title="MUI"></i>
+    <i className="fas fa-lock" title="Bcrypt"></i>
+    <i className="fas fa-code" title="Base-64"></i>
+    <i className="fas fa-paint-brush" title="Emotion Styled"></i>
+    <i className="fas fa-envelope" title="EmailJS"></i>
+    <i className="fas fa-bell" title="SweetAlert2"></i>
+  </div>
+);
+
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
 
@@ -106,19 +123,44 @@ const Projects = () => {
       <h1>Featured Project</h1>
       <div className="Main-Project">
         <div className="Complain-gif">
-          <img src="../../assets/Complain.com" alt="Complain gif" className="Complain"></img>
+          <img src={Mainproject} alt="Complain gif" className="Complain"></img>
         </div>
         <div className="Main-container">
-          <div className="text-box">
-            <p>Sickie.com is a mockup medical website built with express.js. Password encryption was handled with Bcrypt
-              and
-              The front end was built with Tailwind CSS with the HTML being rendered with Express Handlebars.
+          <div className="Main-box">
+            <p>
+              Complain.com is a dynamic and user-friendly full-stack web
+              application designed to give voice to concerns and complaints.
+              Built with the cutting-edge MERN stack (MongoDB, Express, React,
+              Node.js).
+              <br />
+              <span className="features-header">Features</span><br/>
+              Complaint Creation and Management: Users can create, edit, and delete their own posts effortlessly <br/>
+              Featured Posts: The platform showcases the top-voted posts as featured complaints on the homepage <br/>
+              Rich Multimedia Support: Complain.com allows users to enrich their posts by uploading images <br/>
+              Email Component: The contact page features an email component powered by email.js <br/>
+              Sleek UI/UX: Complain.com was rendered using React and styled with Material-UI, Styled Components, and Emotion Styled. <br/>
+              <br/>
+              <span className="features-header">Tech Stack Used:</span><br/>
+              <TechStackIcons />
             </p>
           </div>
           <div className="button-container">
-            <a href="https://github.com/jarrodbb/your-complaint" className="button" target="_blank" rel="noreferrer">Source
-              Code</a>
-            <a href="https://your-complaint-b9ee4991068a.herokuapp.com" className="button" target="_blank" rel="noreferrer">Live Demo</a>
+            <a
+              href="https://your-complaint-b9ee4991068a.herokuapp.com"
+              className="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://github.com/jarrodbb/your-complaint"
+              className="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source Code
+            </a>
           </div>
         </div>
       </div>
@@ -178,8 +220,8 @@ const Projects = () => {
             );
           }
         )}
-      </div> <br>
-      </br>
+      </div>{" "}
+      <br></br>
       <p>
         Haven&apos;t had enough? Check these projects out as well!!
         <a
@@ -190,7 +232,6 @@ const Projects = () => {
         </a>
       </p>
     </section>
-
   );
 };
 
