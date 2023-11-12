@@ -23,13 +23,9 @@
 }
 
 .navbar-container a:hover {
-  background: rgba(0,0,0,0.3);
+  background: blue;
 }
 
-.navbar-container a.active {
-  background: var(--color-primary);
-  color: var(--color-bg);
-}
 
 @media screen and (max-width: 768px) {
   .navbar-container {

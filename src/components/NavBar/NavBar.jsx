@@ -1,26 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./NavBar.css";
 
 export const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
-
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
-      let activeSection = "#";
-
-      for (let i = 0; i < sections.length; i++) {
-        const section = sections[i];
-        setTimeout(() => {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= 0) {
-            activeSection = "#" + section.getAttribute("id");
-          }
-          setActiveNav(activeSection);
-        }, 700);
+      const firstVisibleSection = [...sections].find((section) => {
+        const rect = section.getBoundingClientRect();
+        return rect.top <= 0;
+      });
+      if (firstVisibleSection) {
+        const sectionId = "#" + firstVisibleSection.getAttribute("id");
+        console.log("Active Section:", sectionId);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -29,10 +22,6 @@ export const Navbar = () => {
 
   const handleClick = (e, sectionId) => {
     e.preventDefault();
-
-    if (activeNav !== sectionId) {
-      setActiveNav(sectionId);
-    }
 
     if (sectionId === "#") {
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -49,60 +38,25 @@ export const Navbar = () => {
     <div>
       {/* First Navigation Bar */}
       <nav className="navbar-container">
-        <a
-          href="/#"
-          onClick={(e) => handleClick(e, "#")}
-          className={activeNav === "#" ? "active" : ""}
-          data-text="Home"
-        >
+        <a href="/#" onClick={(e) => handleClick(e, "#")} data-text="Home">
           <i className="far fa fa-home"></i>
         </a>
-        <a
-          href="/#about"
-          onClick={(e) => handleClick(e, "#about")}
-          className={activeNav === "#about" ? "active" : ""}
-          data-text="About"
-        >
+        <a href="/#about" onClick={(e) => handleClick(e, "#about")} data-text="About">
           <i className="far fa-user"></i>
         </a>
-        <a
-          href="/#experience"
-          onClick={(e) => handleClick(e, "#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
-          data-text="Experience"
-        >
+        <a href="/#experience" onClick={(e) => handleClick(e, "#experience")} data-text="Experience">
           <i className="fas fa-briefcase"></i>
         </a>
-        <a
-          href="/#skills"
-          onClick={(e) => handleClick(e, "#skills")}
-          className={activeNav === "#skills" ? "active" : ""}
-          data-text="Skills"
-        >
+        <a href="/#skills" onClick={(e) => handleClick(e, "#skills")} data-text="Skills">
           <i className="far fa-file-code"></i>
         </a>
-        <a
-          href="/#project"
-          onClick={(e) => handleClick(e, "#project")}
-          className={activeNav === "#project" ? "active" : ""}
-          data-text="Project"
-        >
+        <a href="/#project" onClick={(e) => handleClick(e, "#project")} data-text="Project">
           <i className="far fa-folder-open"></i>
         </a>
-        <a
-          href="/#education"
-          onClick={(e) => handleClick(e, "#education")}
-          className={activeNav === "#education" ? "active" : ""}
-          data-text="Education"
-        >
+        <a href="/#education" onClick={(e) => handleClick(e, "#education")} data-text="Education">
           <i className="far fa fa-school"></i>
         </a>
-        <a
-          href="/#contact"
-          onClick={(e) => handleClick(e, "#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
-          data-text="Contact"
-        >
+        <a href="/#contact" onClick={(e) => handleClick(e, "#contact")} data-text="Contact">
           <i className="far fa fa-phone"></i>
         </a>
       </nav>
