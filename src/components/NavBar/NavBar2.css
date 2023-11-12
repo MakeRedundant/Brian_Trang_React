@@ -1,18 +1,7 @@
 /* Styles for the second nav bar */
-/* .navbar2-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #333;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  width: 100vw;
-  z-index: 1000;
-} */
 
 .navbar2-container a:hover {
-  background: rgba(255, 0, 0, 0.3);
+  background: blue;
 }
 
 .navbar2 a {
@@ -39,7 +28,7 @@
 @media screen and (max-width: 600px) {
   .navbar2-container a {
    font-size: 0.6rem;
-   display: none;
+   /* display: none; */
   
 }
 }
