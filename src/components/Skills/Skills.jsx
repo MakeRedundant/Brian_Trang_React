@@ -48,7 +48,6 @@ const Skills = () => {
           <p>My preferred tools for code editing, sharing, wireframes, communication and testing</p>
         </div>
       </div>
-      <h2>My Tools</h2>
       <div className="tools-slider">
         <div className="slider">
           <div className="tools-wrapper">
