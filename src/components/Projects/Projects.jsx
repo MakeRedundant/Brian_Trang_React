@@ -152,7 +152,7 @@ const Projects = () => {
           </div>
           <div className="button-container">
             <a
-              href="https://your-complaint-b9ee4991068a.herokuapp.com"
+              href="https://complain-com-a977d53e691f.herokuapp.com"
               className="button"
               target="_blank"
               rel="noreferrer"
@@ -160,7 +160,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="https://github.com/jarrodbb/your-complaint"
+              href="https://github.com/MakeRedundant/Complain.com"
               className="button"
               target="_blank"
               rel="noreferrer"
