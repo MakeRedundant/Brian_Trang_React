@@ -1,5 +1,6 @@
 import "./About.css";
 import { TypewriterComponent2 } from "../utils/Typewriter/Typewriter2";
+import ABOUTME from "../../assets/Me_smile.jpg";
 
 const About = () => {
   return (
@@ -17,27 +18,34 @@ const About = () => {
           </div>
           <div className="terminal__content" id="text">
             <h3 className="terminal__content">
-              <span className="text-highlight">  Brian Trang </span>
+              <span className="text-highlight"> Brian Trang </span>
             </h3>
+            {/* <div className="About-photo">
+              <img src={ABOUTME} alt="photo" />
+            </div> */}
+            <div className="about-text">
             <p className="terminal__content">
-
-                As an Optometrist 👨‍⚕️, I worked in a wide range of fields including
-                Paediatrics, Refraction (LASIK), Glaucoma, Orthoptics, and Retinal
-                and after more than 5 years, I have decided to
-                jump over to programming! 👀 <br />
-                Now as a dedicated front-end developer passionate about technology and
-                expanding and learning new skills. <br/>
-                I enjoy studying <TypewriterComponent2 />.
+              As an Optometrist 👨‍⚕️, I worked in a wide range of fields including
+              Paediatrics, Refraction (LASIK), Glaucoma, Orthoptics, and Retinal
+              and after more than 5 years, I have decided to jump over to
+              programming! 👀 <br />
+              Now as a dedicated front-end developer passionate about technology
+              and expanding and learning new skills. <br />
+              I enjoy studying <TypewriterComponent2 />.
             </p>
+            </div>
             <h3 className="terminal__content">
-                What <span className="text-highlight">sets me apart?</span>
+              What <span className="text-highlight">sets me apart?</span>
             </h3>
             <p className="terminal__content">
-                I enjoy <span className="text-highlight">learning and coding!</span> I believe consistent learning,
-                fexibility and being an all around fun to work with, makes coding fun! 🧑‍💻
-                When not coding, you can find me drinking tea 🍵, board games with friends 🎲 or watching YouTube coding tutorials or cat videos 🐱‍💻.
-              <br/>
-                Look around, and I hope to hear back from you! 👋
+              I enjoy{" "}
+              <span className="text-highlight">learning and coding!</span> I
+              believe consistent learning, fexibility and being an all around
+              fun to work with, makes coding fun! 🧑‍💻 When not coding, you can
+              find me drinking tea 🍵, board games with friends 🎲 or watching
+              YouTube coding tutorials or cat videos 🐱‍💻.
+              <br />
+              Look around, and I hope to hear back from you! 👋
             </p>
             <div className="card-socials">
               <a
@@ -68,7 +76,6 @@ const About = () => {
                 <i className="fab fa-linkedin about__icons"></i>
               </a>
             </div>
-
           </div>
         </div>
       </div>

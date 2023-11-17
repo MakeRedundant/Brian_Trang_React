@@ -7,14 +7,43 @@
   align-content: center;
 }
 
+.About-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 0 0 48%; /* Adjust the width of the photo */
+}
+
+/* .About-photo img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+} */
+
+.About-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.about-text {
+  flex: 0 0 48%; /* Adjust the width of the text */
+  margin-top: 10px; /* Adjust the margin between photo and text */
+}
+
 .section__wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 92%;
   min-width: 308px;
   height: auto;
   align-items: center;
   justify-content: center;
+  /* justify-content: space-between; */
+  align-items: flex-start;
   justify-items: center;
   font-weight: 500;
   padding: 0 0 2rem 0;
