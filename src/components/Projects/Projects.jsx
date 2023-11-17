@@ -16,7 +16,7 @@ const projectData = [
     title: "Sickie.com",
     github: "https://github.com/MakeRedundant/Sickie.com",
     category: "Full-stack Website",
-    Live: "https://takesickies-40fabe44386a.herokuapp.com/",
+    Live: "https://sickie-com-072b043c893e.herokuapp.com",
     Source: "https://github.com/MakeRedundant/Sickie.com",
     description:
       "Sickie.com is a mockup medical website, where users request medical certificates",
