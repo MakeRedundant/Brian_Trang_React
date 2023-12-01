@@ -1,5 +1,5 @@
 # Brian Trang || Portoflio 
-You stumbled onto something great have a look around!  
+You stumbled onto my portoflio, have a look around!  
 https://brian-trang-portfolio.netlify.app/   
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
