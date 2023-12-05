@@ -212,7 +212,7 @@ const Projects = () => {
                 </div>
 
                 <div className="project-card-details">
-                  <h3 className="project-card-title">{title}</h3>
+                  <h2 className="project-card-title">{title}</h2>
                   <p className="project-card-description">{description}</p>
                   <div className="project-card-tags">
                     {tags.map((tag, index) => (
