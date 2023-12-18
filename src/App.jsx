@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import Navbar from "./components/NavBar/NavBar";
 import Navbar2 from "./components/NavBar/NavBar2";
 import Header from "./components/Header/Header";
@@ -15,8 +14,8 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
-      <Navbar2 />
       <Navbar />
+      <Navbar2 />
       <Header />
       <About />
       <Experience />
