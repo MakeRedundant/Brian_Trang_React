@@ -20,7 +20,7 @@ export const Navbar = () => {
     <div>
       {/* First Navigation Bar */}
       <nav className="navbar-container">
-        <a href="/#" onClick={(e) => handleClick(e, "#")} data-text="Home">
+        <a href="/#" onClick={(e) => handleClick(e, "#")} aria-label="Home section">
           <i className="far fa fa-home"></i>
         </a>
         <a href="/#about" onClick={(e) => handleClick(e, "#about")} data-text="About">
