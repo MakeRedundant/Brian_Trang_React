@@ -8,9 +8,9 @@ const Experience = () => {
         <div className="terminal__format">
           <div className=" terminal_toolbar">
             <div className="terminal-button">
-              <button className="btn btn__red btn-color"></button>
-              <button className="btn btn__yellow"></button>
-              <button className="btn btn__green"></button>
+              <span className="btn btn__red btn-color"></span>
+              <span className="btn btn__yellow"></span>
+              <span className="btn btn__green"></span>
             </div>
             <p className="user">briandev@admin: Experience ~</p>
           </div>
