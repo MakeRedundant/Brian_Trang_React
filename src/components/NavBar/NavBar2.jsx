@@ -5,31 +5,31 @@ const NavBar2 = () => {
     <nav className="navbar2">
       {/* Second Navigation Bar */}
       <div className="navbar2-container">
-        <a href="#header" data-text="Home">
+        <a href="#header">
           <i className="far fa fa-home"></i>
           Home
         </a>
-        <a href="#about" data-text="About">
+        <a href="#about">
           <i className="far fa-user"></i>
           About
         </a>
-        <a href="#experience" data-text="Experience">
+        <a href="#experience">
           <i className="fas fa-briefcase"></i>
           Experience
         </a>
-        <a href="#skills" data-text="Skills">
+        <a href="#skills">
           <i className="far fa-file-code"></i>
           Skills
         </a>
-        <a href="#project" data-text="Project">
+        <a href="#project">
           <i className="far fa-folder-open"></i>
           Project
         </a>
-        <a href="#education" data-text="Education">
+        <a href="#education">
           <i className="far fa fa-school"></i>
           Education
         </a>
-        <a href="#contact" data-text="Contact">
+        <a href="#contact">
           <i className="far fa fa-phone"></i>
           Contact || Resume
         </a>
