@@ -50,6 +50,7 @@ const About = () => {
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="Download Resume"
+                data-text="Download resume"
               >
                 <i className="far fa-file-pdf about__icons"></i>
               </a>
