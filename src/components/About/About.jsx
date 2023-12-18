@@ -1,6 +1,6 @@
 import "./About.css";
 import { TypewriterComponent2 } from "../utils/Typewriter/Typewriter2";
-import ABOUTME from "../../assets/Me_smile.jpg";
+// import ABOUTME from "../../assets/Me_smile.jpg";
 
 const About = () => {
   return (

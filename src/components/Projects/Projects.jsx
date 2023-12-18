@@ -1,11 +1,11 @@
 import "./Projects.css";
-import PROJECT1 from "../../assets/Sickie.gif";
-import PROJECT2 from "../../assets/Summoning gif.gif";
-import PROJECT3 from "../../assets/Marvel Characters.gif";
-import PROJECT4 from "../../assets/Tech Blog.gif";
-import PROJECT5 from "../../assets/Weather Forecast.gif";
-import PROJECT6 from "../../assets/ReadMe Generator.gif";
-import Mainproject from "../../assets/Complain.com.gif";
+import PROJECT1 from "../../assets/Sickie.png";
+import PROJECT2 from "../../assets/Summoning.png";
+import PROJECT3 from "../../assets/Search.png";
+import PROJECT4 from "../../assets/Tech Blog.png";
+import PROJECT5 from "../../assets/Weather.png";
+import PROJECT6 from "../../assets/ToDo.png";
+import Mainproject from "../../assets/Complain.webp";
 //import the gif directly instead of src it, helps with webpack and dynamic loading.
 import { useState } from "react";
 
@@ -46,9 +46,9 @@ const projectData = [
     image: PROJECT3,
     title: "Marvel-Wiki",
     github: "https://github.com/MakeRedundant/Marvel-Character-Browser",
-    category: "Frontend",
+    category: "Wiki",
     Live: "https://makeredundant.github.io/Marvel-Character-Browser/",
-    Source: "https://github.com/MakeRedundant/Stress-free-gacha",
+    Source: "https://github.com/MakeRedundant/Marvel-Character-Browser",
     description:
       "Users can search for Marvel characters to see the info, comics, creators etc",
     tags: ["Javascript", "Tailwind", "Marvel API"],
@@ -86,12 +86,13 @@ const projectData = [
   {
     id: 6,
     image: PROJECT6,
-    title: "README Generator",
-    github: "https://github.com/MakeRedundant/README_Generator",
-    category: "File Generator",
-    Source: "https://github.com/MakeRedundant/README_Generator",
-    description: "Professional ReadME Generator for projects",
-    tags: ["Javascript", "File System", "Inquirer"],
+    title: "To-Do App",
+    github: "https://github.com/MakeRedundant/To-Do_Vue",
+    category: "Vite/TypeScript",
+    Live: "https://to-do-vue-theta.vercel.app/",
+    Source: "https://github.com/MakeRedundant/To-Do_Vue",
+    description: "To Do App built with Vue",
+    tags: ["Javascript", "Vue", "Typescript", "Vite", "Vercal"],
   },
 ];
 
