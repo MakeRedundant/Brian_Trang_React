@@ -1,6 +1,5 @@
 import "./About.css";
 import { TypewriterComponent2 } from "../utils/Typewriter/Typewriter2";
-// import ABOUTME from "../../assets/Me_smile.jpg";
 
 const About = () => {
   return (
@@ -20,9 +19,6 @@ const About = () => {
             <h3 className="terminal__content">
               <span className="text-highlight"> Brian Trang </span>
             </h3>
-            {/* <div className="About-photo">
-              <img src={ABOUTME} alt="photo" />
-            </div> */}
             <div className="about-text">
               <p className="terminal__content">
                 As an Optometrist 👨‍⚕️, I worked in a wide range of fields
