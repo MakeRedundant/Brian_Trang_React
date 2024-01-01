@@ -62,6 +62,7 @@ const About = () => {
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="GitHub"
+                aria-label="Github"
                 alt="Github"
               >
                 <i className="fab fa-github about__icons"></i>
@@ -72,6 +73,7 @@ const About = () => {
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="LinkedIn"
+                aria-label="LinkedIn"
                 alt="LinkedIn"
               >
                 <i className="fab fa-linkedin about__icons"></i>
