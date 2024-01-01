@@ -51,6 +51,7 @@ const About = () => {
                 rel="nofollow noreferrer noopener"
                 data-tooltip="Download Resume"
                 data-text="Download Resume"
+                alt="Resume"
               >
                 <i className="far fa-file-pdf about__icons"></i>
               </a>
@@ -60,6 +61,7 @@ const About = () => {
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="GitHub"
+                alt="Github"
               >
                 <i className="fab fa-github about__icons"></i>
               </a>
@@ -69,6 +71,7 @@ const About = () => {
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="LinkedIn"
+                alt="LinkedIn"
               >
                 <i className="fab fa-linkedin about__icons"></i>
               </a>
