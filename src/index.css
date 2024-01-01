@@ -33,7 +33,7 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.7;
-  background-image: url(./assets/Space.jpg);
+  background-image: url(./assets/Space.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
