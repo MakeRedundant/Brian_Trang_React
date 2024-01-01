@@ -51,8 +51,10 @@ const About = () => {
                 rel="nofollow noreferrer noopener"
                 data-tooltip="Download Resume"
                 data-text="Download resume"
+                aria-label="Download Brian Trang's Resume"
               >
                 <i className="far fa-file-pdf about__icons"></i>
+                Download Resume
               </a>
               <a
                 className="card-socials-btn"
