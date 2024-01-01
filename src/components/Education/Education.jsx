@@ -1,6 +1,6 @@
 import "./Education.css";
-import USYDLogo from "../../assets/USYD.png";
-import UNSWLogo from "../../assets/UNSW.png";
+import USYDLogo from "../../assets/USYD.webp";
+import UNSWLogo from "../../assets/UNSW.webp";
 
 const Education = () => {
   return (

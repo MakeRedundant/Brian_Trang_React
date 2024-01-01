@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import { changeLanguage } from "../../javascript/changeLanguage.js";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
-import ME from "../../assets/MeSlit Lamp.jpg";
+import ME from "../../assets/MeSlit-Lamp.webp";
 
 const Header = () => {
   useEffect(() => {

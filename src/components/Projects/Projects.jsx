@@ -1,10 +1,10 @@
 import "./Projects.css";
-import PROJECT1 from "../../assets/Sickie.png";
-import PROJECT2 from "../../assets/Summoning.png";
-import PROJECT3 from "../../assets/Search.png";
-import PROJECT4 from "../../assets/Tech Blog.png";
-import PROJECT5 from "../../assets/Weather.png";
-import PROJECT6 from "../../assets/ToDo.png";
+import PROJECT1 from "../../assets/Sickie.webp";
+import PROJECT2 from "../../assets/Summoning.webp";
+import PROJECT3 from "../../assets/Search.webp";
+import PROJECT4 from "../../assets/Tech Blog.webp";
+import PROJECT5 from "../../assets/Weather.webp";
+import PROJECT6 from "../../assets/ToDo.webp";
 import Mainproject from "../../assets/Complain.webp";
 //import the gif directly instead of src it, helps with webpack and dynamic loading.
 import { useState } from "react";
