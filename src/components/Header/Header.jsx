@@ -38,7 +38,7 @@ const Header = () => {
         </div>
 
         <div className="header-image">
-          <img src={ME} alt="Me" width="70%" height="100%" />
+          <img src={ME} alt="Me" width="100%" height="100%" />
         </div>
       </div>
     </header>
