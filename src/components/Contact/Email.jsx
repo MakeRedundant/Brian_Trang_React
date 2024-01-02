@@ -120,7 +120,7 @@ export default function Email() {
         <h1>Email me here!</h1>
       </div>
       <div className="App">
-        <h3>{submission}</h3>
+        <h2>{submission}</h2>
 
         <Form className="contact-bg" onSubmit={handleFormSubmit}>
           <Form.Field
