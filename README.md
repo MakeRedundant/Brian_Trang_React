@@ -24,10 +24,15 @@ https://brian-trang-portfolio.netlify.app/
 ![vite](https://img.shields.io/badge/vite-4.4.5-9400d3.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04d5add2-6f3b-494b-9a08-2d035a21782c/deploy-status)](https://app.netlify.com/sites/brian-trang-portfolio/deploys)
 
+## 💡🏡 Lighthouse
+This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
+
+![Lighthouse](./assets/Lighthouse-Portfolio.png)
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
 also contains humour!  
+
  
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
@@ -54,6 +59,7 @@ also contains humour!
   
 ## 📓 Table of Contents
 - [Brian Trang || Portoflio](#brian-trang--portoflio)
+  - [💡🏡 Lighthouse](#-lighthouse)
   - [📄 Description](#-description)
   - [🪛 Technologies used](#-technologies-used)
   - [📓 Table of Contents](#-table-of-contents)
