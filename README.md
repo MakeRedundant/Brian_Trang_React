@@ -35,26 +35,29 @@ also contains humour!
 
  
 ## 🪛 Technologies used 
-<p><a href="https://nodejs.org/">Node.js</a></p>
-<p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://fontawesome.com/">Font Awesome</a></p>
-<p><a href="https://fontawesome.com/">Font Awesome (React)</a></p>
-<p><a href="https://www.emailjs.com/">EmailJS</a></p>
-<p><a href="https://www.emailjs.com/">EmailJS (Com)</a></p>
-<p><a href="https://reactjs.org/">React</a></p>
-<p><a href="https://reactjs.org/">React DOM</a></p>
-<p><a href="https://react-icons.github.io/react-icons/">React Icons</a></p>
-<p><a href="https://www.npmjs.com/package/react-simple-typewriter">React Simple Typewriter</a></p>
-<p><a href="https://semantic-ui.com/">Semantic UI CSS</a></p>
-<p><a href="https://react.semantic-ui.com/">Semantic UI React</a></p>
-<p><a href="https://sweetalert2.github.io/">SweetAlert2</a></p>
-<p><a href="https://github.com/vitejs/vite">Vite (Plugin React)</a></p>
-<p><a href="https://eslint.org/">ESLint</a></p>
-<p><a href="https://eslint.org/">ESLint (Plugin React)</a></p>
-<p><a href="https://www.npmjs.com/package/eslint-plugin-react-hooks">ESLint (Plugin React Hooks)</a></p>
-<p><a href="https://www.npmjs.com/package/eslint-plugin-react-refresh">ESLint (Plugin React Refresh)</a></p>
-<p><a href="https://vitejs.dev/">Vite</a></p>
-<p><a href="https://www.netlify.com/">Netlify</a></p>
+| Technology              | Description                           | Link                                       |
+|-------------------------|---------------------------------------|--------------------------------------------|
+| Node.js                 | Server-side JavaScript runtime         | [Node.js](https://nodejs.org/)             |
+| NPM                     | Node.js Package Manager               | [NPM](https://www.npmjs.com/)             |
+| Font Awesome            | Icon set and toolkit                  | [Font Awesome](https://fontawesome.com/)   |
+| Font Awesome (React)    | Font Awesome for React components     | [Font Awesome (React)](https://fontawesome.com/) |
+| EmailJS                 | Email delivery service                 | [EmailJS](https://www.emailjs.com/)       |
+| EmailJS (Com)           | Email service for developers          | [EmailJS (Com)](https://www.emailjs.com/) |
+| React                   | JavaScript library for building UIs   | [React](https://reactjs.org/)             |
+| React DOM               | React rendering for the DOM           | [React DOM](https://reactjs.org/)         |
+| React Icons             | SVG icon library for React            | [React Icons](https://react-icons.github.io/react-icons/) |
+| React Simple Typewriter | React component for typewriter effect | [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter) |
+| Semantic UI CSS         | Front-end framework                   | [Semantic UI CSS](https://semantic-ui.com/) |
+| Semantic UI React       | React integration for Semantic UI      | [Semantic UI React](https://react.semantic-ui.com/) |
+| SweetAlert2             | Alert library for JavaScript          | [SweetAlert2](https://sweetalert2.github.io/) |
+| Vite (Plugin React)     | Vite plugin for React apps            | [Vite (Plugin React)](https://github.com/vitejs/vite) |
+| ESLint                  | JavaScript linter                     | [ESLint](https://eslint.org/)             |
+| ESLint (Plugin React)   | ESLint plugin for React               | [ESLint (Plugin React)](https://eslint.org/) |
+| ESLint (Plugin React Hooks) | ESLint plugin for React Hooks      | [ESLint (Plugin React Hooks)](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
+| ESLint (Plugin React Refresh) | ESLint plugin for React Refresh  | [ESLint (Plugin React Refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
+| Vite                    | Frontend build tool                   | [Vite](https://vitejs.dev/)               |
+| Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
+
 
   
 ## 📓 Table of Contents
@@ -160,6 +163,15 @@ https://brian-trang-portfolio.netlify.app/
 ## 🖼️Screenshot
 Screenshot of Header
 ![Header](./assets/Header.png)
+
+Screenshot of About
+![About](./assets/About.png)
+
+Screenshot of Main Project
+![Main-project](./assets/Main%20Project.png)
+
+Screenshot of Skills
+![Skills](./assets/Skills.png)
 
 Screenshot of Projects
 ![Project](./assets/Projects.png)
