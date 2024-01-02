@@ -24,6 +24,21 @@ https://brian-trang-portfolio.netlify.app/
 ![vite](https://img.shields.io/badge/vite-4.4.5-9400d3.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04d5add2-6f3b-494b-9a08-2d035a21782c/deploy-status)](https://app.netlify.com/sites/brian-trang-portfolio/deploys)
 
+## 📓 Table of Contents
+- [Brian Trang || Portoflio](#brian-trang--portoflio)
+  - [� Table of Contents](#-table-of-contents)
+  - [💡🏡 Lighthouse](#-lighthouse)
+  - [📄 Description](#-description)
+  - [🪛 Technologies used](#-technologies-used)
+  - [🖥️Installation](#️installation)
+  - [💬Usage](#usage)
+  - [🖼️Screenshot](#️screenshot)
+  - [📹Video](#video)
+  - [⚖️License](#️license)
+  - [🤝Contributing](#contributing)
+  - [🛠️Tests](#️tests)
+  - [❔Questions](#questions)
+
 ## 💡🏡 Lighthouse
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
@@ -57,23 +72,6 @@ also contains humour!
 | ESLint (Plugin React Refresh) | ESLint plugin for React Refresh  | [ESLint (Plugin React Refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
 | Vite                    | Frontend build tool                   | [Vite](https://vitejs.dev/)               |
 | Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
-
-
-  
-## 📓 Table of Contents
-- [Brian Trang || Portoflio](#brian-trang--portoflio)
-  - [💡🏡 Lighthouse](#-lighthouse)
-  - [📄 Description](#-description)
-  - [🪛 Technologies used](#-technologies-used)
-  - [📓 Table of Contents](#-table-of-contents)
-  - [🖥️Installation](#️installation)
-  - [💬Usage](#usage)
-  - [🖼️Screenshot](#️screenshot)
-  - [📹Video](#video)
-  - [⚖️License](#️license)
-  - [🤝Contributing](#contributing)
-  - [🛠️Tests](#️tests)
-  - [❔Questions](#questions)
     
 ## 🖥️Installation 
 
