@@ -26,7 +26,7 @@ https://brian-trang-portfolio.netlify.app/
 
 ## 📓 Table of Contents
 - [Brian Trang || Portoflio](#brian-trang--portoflio)
-  - [� Table of Contents](#-table-of-contents)
+  - [📓 Table of Contents](#-table-of-contents)
   - [💡🏡 Lighthouse](#-lighthouse)
   - [📄 Description](#-description)
   - [🪛 Technologies used](#-technologies-used)
