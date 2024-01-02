@@ -16,9 +16,9 @@ const About = () => {
             <p className="user">briandev@admin: About ~</p>
           </div>
           <div className="terminal__content" id="text">
-            <h3 className="terminal__content">
+            <h2 className="terminal__content">
               <span className="text-highlight"> Brian Trang </span>
-            </h3>
+            </h2>
             <div className="about-text">
               <p className="terminal__content">
                 As an Optometrist 👨‍⚕️, I worked in a wide range of fields
@@ -30,9 +30,9 @@ const About = () => {
                 I enjoy studying <TypewriterComponent2 />.
               </p>
             </div>
-            <h3 className="terminal__content">
+            <h2 className="terminal__content">
               What <span className="text-highlight">sets me apart?</span>
-            </h3>
+            </h2>
             <p className="terminal__content">
               I enjoy{" "}
               <span className="text-highlight">learning and coding!</span> I

@@ -15,9 +15,9 @@ const Experience = () => {
             <p className="user">briandev@admin: Experience ~</p>
           </div>
           <div className="terminal__content" id="text">
-            <h3 className="terminal__content">
+            <h2 className="terminal__content">
               <span className="text-highlight">Bankstown Hospital </span>
-            </h3>
+            </h2>
             <p className="terminal-year">
             2021 - Present
             </p>
@@ -35,9 +35,9 @@ const Experience = () => {
             </p>
           </div>
           <div className="terminal__content" id="text">
-            <h3 className="terminal__content">
+            <h2 className="terminal__content">
               <span className="text-highlight">PersonalEyes </span>
-            </h3>
+            </h2>
             <p className="terminal-year">
             2018-2022
             </p>
