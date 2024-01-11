@@ -21,7 +21,7 @@ const Header = () => {
     <header id="header" className="header">
       <div className="header-container">
         <div className="Header-section">
-          <h1>WELCOME TO MY WORLD</h1>
+          <h1>WELCOME 👋 </h1>
           <div className="header-text">
             <h2 id="hello" onClick={changeLanguage}>
               👋 Hello
