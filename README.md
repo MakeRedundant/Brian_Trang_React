@@ -46,7 +46,7 @@ This is the Lighthouse Google report showcasing Performance 🚀, Accessibility 
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
-also contains humour!  
+also contains bad humour!  
 
  
 ## 🪛 Technologies used 
