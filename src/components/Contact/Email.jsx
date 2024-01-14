@@ -1,11 +1,15 @@
-import React, { useState } from "react";
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
-//Form, Input, TextArea, and Button are components from the Semantic UI React library for building forms.
+import { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import contactImg from "../../assets/img/contact-img.svg";
+// import Me from "../assets/img/Me.png";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
+import "./Email.css";
+
 import emailjs from "emailjs-com";
 //emailjs is a library for sending emails using JavaScript.
 import Swal from "sweetalert2";
-//Swal is an external library for displaying pop-up alerts (SweetAlert2).
-import "./Email.css";
+
 import { validateEmail } from "../utils/Email Validate/helpers";
 
 //EmailJS
@@ -17,26 +21,18 @@ const SERVICE_ID = "service_lv2pvc8";
 // !!!!!Refer to this !!!!!!!!!!!!
 //https://plainenglish.io/blog/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 
-export default function Email() {
-  //Define states
+export default function Contact() {
+  // Define states
+
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [buttonText, setButtonText] = useState("Submit");
   const [submission, setSubmission] = useState("");
-  const [userLocation, setLocation] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [status, setStatus] = useState({ message: "", success: null });
 
-  const checkClick = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-    console.log(inputType);
-    if (userLocation === "") {
-    }
-  };
-
-  //Function to handle when input is changed
-  //Checks if input is empty and calls error message if required
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -56,6 +52,10 @@ export default function Email() {
         setName(inputValue);
       }
     }
+    if (inputType === "phone") {
+      // Update phone state
+      setPhone(inputValue);
+    }
     if (inputType === "message") {
       if (inputValue === "") {
         return (
@@ -69,40 +69,48 @@ export default function Email() {
     setSubmission("");
   };
 
-  //Handle when form is submitted
-  const handleFormSubmit = (e) => {
-    //prevent default on form
+  const handleSubmit = async (e) => {
     e.preventDefault();
-//Checks if email is valid and returns a error message if not
+
+    // Check if email is valid
     if (!validateEmail(email)) {
-      setErrorMessage("Error! Email is invalid, please try again");
+      setStatus({
+        message: "Error! Email is invalid, please try again",
+        success: false,
+      });
       return;
     }
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
-      (result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: "success",
-          title: "Message Sent Successfully",
-        });
-      },
-      (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: "error",
-          title: "Ooops, something went wrong",
-          text: error.text,
-        });
-      }
-    );
-    //Alerts user after successful message sent
-    setSubmission(`Thanks for your email ${name}. I'll be in contact 👍`);
 
-    setName("");
-    setMessage("");
-    setErrorMessage("");
-    setEmail("");
+    // Simulate sending email
+    setButtonText("Sending...");
+    try {
+      const result = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID);
+      console.log(result.text);
+      Swal.fire({
+        icon: "success",
+        title: "Message Sent Successfully",
+      });
+      //Alerts user after successful message sent
+      setSubmission(`Thanks for your email ${name}. I'll be in contact 👍`);
+
+      setName("");
+      setMessage("");
+      setPhone("");
+      setErrorMessage("");
+      setEmail("");
+    } catch (error) {
+      console.log(error.text);
+      Swal.fire({
+        icon: "error",
+        title: "Ooops, something went wrong",
+        text: error.text,
+      });
+    } finally {
+      // Reset button text regardless of success or failure
+      setButtonText("Submit");
+    }
   };
+
   const checkName = (event) => {
     console.log(event.target.value);
     const { target } = event;
@@ -113,92 +121,99 @@ export default function Email() {
       setErrorMessage(`${inputType} cannot be empty`);
     }
   };
-  //Form here to handle name and message using emailjs
+
   return (
-    <div>
-      <div className="title-boarder rounded-circle">
-        <h1>Email me here!</h1>
-      </div>
-      <div className="App">
-        <h2>{submission}</h2>
-
-        <Form className="contact-bg" onSubmit={handleFormSubmit}>
-          <Form.Field
-            id="form-input-control-last-name"
-            value={name}
-            name="name"
-            control={Input}
-            onBlur={checkName}
-            onChange={handleInputChange}
-            label="Name"
-            type="text"
-            onClick={checkClick}
-            placeholder="Name..."
-            required
-            icon="user circle"
-            iconPosition="left"
-          />
-
-          <Form.Field
-            id="form-input-control-email"
-            value={email}
-            control={Input}
-            name="email"
-            onBlur={checkName}
-            label="Email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="Email"
-            required
-            icon="mail"
-            iconPosition="left"
-          />
-
-          <TextArea
-            id="form-textarea-control-opinion "
-            rows="5"
-            value={message}
-            onBlur={checkName}
-            // control={Input}
-            name="message"
-            label="Message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Message here"
-            required
-          />
-          <button className="submit-button mt-2" type="submit ">
-            Submit
-          </button>
-        </Form>
-        {errorMessage && (
-          <div>
-            <p className="error-text p-2 error-display mt-2">{errorMessage}</p>
-          </div>
-        )}
-      </div>
-    </div>
+    <section className="contact" id="connect">
+      <Container>
+        <Row className="align-items-center">
+          <Col size={12} md={6}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <img
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
+                  src={contactImg}
+                  alt="Contact Us"
+                />
+              )}
+            </TrackVisibility>
+          </Col>
+          <Col size={12} md={6}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>Get In Touch</h2>
+                  <h3>{submission}</h3>
+                  <form onSubmit={handleSubmit}>
+                    <Row>
+                      <Col size={12} sm={6} className="px-1">
+                        <input
+                          type="text"
+                          value={name}
+                          placeholder="Name"
+                          onBlur={checkName}
+                          onChange={(e) => handleInputChange(e)}
+                          name="name"
+                        />
+                      </Col>
+                      <Col size={12} sm={6} className="px-1">
+                        <input
+                          type="email"
+                          value={email}
+                          placeholder="Email Address"
+                          onBlur={checkName}
+                          onChange={(e) => handleInputChange(e)}
+                          name="email"
+                        />
+                      </Col>
+                      <Col size={12} sm={6} className="px-1">
+                        <input
+                          type="tel"
+                          value={phone}
+                          placeholder="Phone #"
+                          onChange={(e) => handleInputChange(e)}
+                          name="phone"
+                        />
+                      </Col>
+                      <Col size={12} sm={6} className="px-1">
+                        <textarea
+                          rows="6"
+                          value={message}
+                          placeholder="Message"
+                          onBlur={checkName}
+                          onChange={(e) => handleInputChange(e)}
+                          name="message"
+                        ></textarea>
+                        <button type="submit">
+                          <span>{buttonText}</span>
+                        </button>
+                      </Col>
+                      {(status.message || errorMessage) && (
+                        <Col>
+                          <p
+                            className={
+                              status.success === false || errorMessage
+                                ? "danger"
+                                : "success"
+                            }
+                          >
+                            {status.message || errorMessage}
+                          </p>
+                        </Col>
+                      )}
+                    </Row>
+                  </form>
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }
-
-// const Contact = () => {
-//   return (
-//     <section id='contact'>
-//       <h1>Contact</h1>
-//       <div className="contact-container">
-//         <div className="text-box">
-//           <div className="contact-text">
-//             <p> Need to complain to the team? <br /> Feel free to contact us here</p>
-//           </div>
-//         </div>
-//         <div className="contact-details">
-//           {/* All links open in a new tab */}
-//           <a href="tel:+9999999999" className="contact-button"><i className="fas fa-phone"></i> Phone</a>
-//           <a href="https://makeredundant.github.io/Brian-Website/" className="contact-button" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i> Website</a>
-//           <a href="mailto:Brian.trang@hotmail.com" className="contact-button"><i className="fas fa-envelope"></i> Email</a>
-//           <a href="https://github.com/MakeRedundant" className="contact-button" target="_blank" rel="noreferrer"><i className="fab fa-github"></i> GitHub</a>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
