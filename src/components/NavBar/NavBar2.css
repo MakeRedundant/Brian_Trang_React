@@ -1,4 +1,9 @@
 /* Styles for the second nav bar */
+.navbar2 {
+  padding-bottom: 5%;
+  font-size: 1.3rem;
+}
+
 
 .navbar2-container a:hover {
   background: blue;

@@ -15,6 +15,7 @@
 
 .navbar-container a {
   background: transparent;
+  padding-bottom: 5%;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;

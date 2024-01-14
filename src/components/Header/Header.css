@@ -1,9 +1,9 @@
-/* .header-image img {
+.header-image img {
   max-width: 70%;
   height: auto;
   border-radius: 50%;
-} */
-
+}
+/*
 .header-container {
   display: grid;
   position: relative;
@@ -20,15 +20,16 @@
   height: auto;
   max-width: 70%;
   border-radius: 10%;
-  aspect-ratio: 1/1; /*sets the ratio of width to height of an element */
+  aspect-ratio: 1/1;
   overflow: hidden;
 }
+*/
 
 .header-text {
   font-size: larger;
   height: 75%;
   max-width: 100%;
-  overflow: hidden; /* Hide overflowing content */
+  overflow: hidden;
   padding: 1rem;
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
