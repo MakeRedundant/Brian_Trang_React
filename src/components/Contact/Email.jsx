@@ -21,7 +21,7 @@ const SERVICE_ID = "service_lv2pvc8";
 // !!!!!Refer to this !!!!!!!!!!!!
 //https://plainenglish.io/blog/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 
-export default function Contact() {
+export default function Email() {
   // Define states
 
   const [email, setEmail] = useState("");
@@ -123,7 +123,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="email">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
