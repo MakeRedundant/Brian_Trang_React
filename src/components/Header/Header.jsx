@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import { changeLanguage } from "../../javascript/changeLanguage.js";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
-import Headerimage from "../../assets/Me.webp";
+import Headerimage from "../../assets/Headerimage.webp";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
