@@ -62,10 +62,10 @@ const Header = () => {
               <div
                 className={isVisible ? "animate__animated animate__bounceInRight" : ""}
               >
-                <div className="header-image">
+                {/* <div className="header-image"> */}
                   <img src={ME} alt="Me" />
                 </div>
-              </div>
+              // </div>
             )}
           </TrackVisibility>
         </Col>
