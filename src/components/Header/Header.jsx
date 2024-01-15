@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import { changeLanguage } from "../../javascript/changeLanguage.js";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
-import ME from "../../assets/Me.webp";
+import ME from "../../assets/Me.png";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
