@@ -28,7 +28,7 @@ const Experience = () => {
             <p className="terminal__content">
             As the <span className="text-highlight">senior Optometrist</span> at a multidisciplinary ophthalmic practice and the first contact for all patients.
             The expected duties requiring demonstrating expertise in triaging and obtaining comprehensive medical histories to ensure accurate diagnoses and tailored treatment plans.
-            Utilizing advanced diagnostic equipment as the senior optometrist I was the only clinician at the practice proficient with Optos Ultra-widefield retinal imaging.
+            Utilising advanced diagnostic equipment as the senior optometrist I was the only clinician at the practice proficient with Optos Ultra-widefield retinal imaging.
             Led seamless clinic operations and consistently achieved deadlines in a multidisciplinary practice. <br/>
               <span className="text-highlight">Mentoring and training:</span> In collaboration with the University of New South Wales, responsibilities included mentorship and training 16 final year students during their clinical rotation (an increase from 2022 of 25%). <br/>
               <span className="text-highlight">Communication:</span> Assured clear communication between other health professionals of different disciplines and patients, requiring the ability to work well in a team or independently. <br/>
