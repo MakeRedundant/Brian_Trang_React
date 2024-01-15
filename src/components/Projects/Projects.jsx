@@ -4,7 +4,7 @@ import PROJECT2 from "../../assets/Summoning.webp";
 import PROJECT3 from "../../assets/Search.webp";
 import PROJECT4 from "../../assets/Tech Blog.webp";
 import PROJECT5 from "../../assets/Weather.webp";
-import PROJECT6 from "../../assets/ToDo.webp";
+import PROJECT6 from "../../assets/Specs.webp";
 import Mainproject from "../../assets/Complain.webp";
 //import the gif directly instead of src it, helps with webpack and dynamic loading.
 import { useState } from "react";
@@ -86,13 +86,13 @@ const projectData = [
   {
     id: 6,
     image: PROJECT6,
-    title: "To-Do App",
-    github: "https://github.com/MakeRedundant/To-Do_Vue",
-    category: "Vite/TypeScript",
-    Live: "https://to-do-vue-theta.vercel.app/",
-    Source: "https://github.com/MakeRedundant/To-Do_Vue",
-    description: "To Do App built with Vue",
-    tags: ["Javascript", "Vue", "Typescript", "Vite", "Vercal"],
+    title: "Spec-tacular.com",
+    github: "https://github.com/MakeRedundant/Spec-tacular-.com",
+    category: "E-Commerce/TypeScript",
+    Live: "https://spec-tacular-com.vercel.app/",
+    Source: "https://github.com/MakeRedundant/Spec-tacular-.com",
+    description: "WIP E-commerce store where users can buy sunglasses, glasses, contact lenses and store their prescriptions ",
+    tags: ["Javascript","Typescript", "Vite", "Vercal","E-Commerce", "MUI"],
   },
 ];
 
