@@ -132,14 +132,24 @@ React Simple Typewriter
 npm i react-simple-typewriter
 ```
 
-Semantic UI CSS
+Bootstrap
 ```pip
-npm i semantic-ui-css
+npm i bootstrap
 ```
 
-Semantic UI React
+React-boostrap
 ```pip
-npm i semantic-ui-react
+npm i react-bootstrap
+```
+
+Animate.css
+```pip
+npm i animate.css
+```
+
+React on screen
+```pip
+npm i react-on-screen
 ```
 
 ESLint
@@ -161,7 +171,30 @@ React DOM
 ```pip
 npm i react-dom
 ```
-  
+
+Package.json dependencies ⚙️
+```pip
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "devicon": "^2.15.1",
+    "bootstrap": "^5.3.2",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
+    "install": "^0.13.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "sweetalert2": "^11.7.32",
+    "animate.css": "^4.1.1",
+    "react-on-screen": "^2.1.1"
+```
+
 ## 💬Usage 
 
 Have a look around !!
