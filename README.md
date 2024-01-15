@@ -10,6 +10,12 @@ https://brian-trang-portfolio.netlify.app/
 ![emailjs](https://img.shields.io/badge/emailjs-4.0.3-ffa500.svg)
 ![emailjs-com](https://img.shields.io/badge/emailjs--com-3.2.0-00ced1.svg)
 ![react](https://img.shields.io/badge/react-18.2.0-ffa07a.svg)
+![react-router-dom](https://img.shields.io/badge/react--router--dom-^6.3.0-<random_color>.svg)
+![react-router-hash-link](https://img.shields.io/badge/react--router--hash--link-^2.4.3-<random_color>.svg)
+![animate.css](https://img.shields.io/badge/animate.css-^4.1.1-<random_color>.svg)
+![react-on-screen](https://img.shields.io/badge/react--on--screen-^2.1.1-<random_color>.svg)
+![bootstrap](https://img.shields.io/badge/bootstrap-^5.3.2-<random_color>.svg)
+![install](https://img.shields.io/badge/install-^0.13.0-<random_color>.svg)
 ![react-dom](https://img.shields.io/badge/react--dom-18.2.0-40e0d0.svg)
 ![react-icons](https://img.shields.io/badge/react--icons-4.11.0-8a2be2.svg)
 ![react-simple-typewriter](https://img.shields.io/badge/react--simple--typewriter-5.0.1-00ff7f.svg)
@@ -59,7 +65,13 @@ also contains bad humour!
 | EmailJS                 | Email delivery service                 | [EmailJS](https://www.emailjs.com/)       |
 | EmailJS (Com)           | Email service for developers          | [EmailJS (Com)](https://www.emailjs.com/) |
 | React                   | JavaScript library for building UIs   | [React](https://reactjs.org/)             |
-| React DOM               | React rendering for the DOM           | [React DOM](https://reactjs.org/)         |
+| React DOM               | React rendering for the DOM           |
+| react-router-dom          | Declarative routing for React.js       | [react-router-dom](https://reactrouter.com/web/guides/quick-start) |
+| react-router-hash-link    | Hash link navigation for React Router  | [react-router-hash-link](https://www.npmjs.com/package/react-router-hash-link) |
+| animate.css               | Library for animations                 | [animate.css](https://animate.style/)               |
+| react-on-screen           | React component for on-screen events   | [react-on-screen](https://www.npmjs.com/package/react-on-screen) |
+| bootstrap                 | Front-end framework                    | [bootstrap](https://getbootstrap.com/)              |
+| install                   | Package manager for JavaScript         | [install](https://www.npmjs.com/package/install)    | [React DOM](https://reactjs.org/)         |
 | React Icons             | SVG icon library for React            | [React Icons](https://react-icons.github.io/react-icons/) |
 | React Simple Typewriter | React component for typewriter effect | [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter) |
 | Semantic UI CSS         | Front-end framework                   | [Semantic UI CSS](https://semantic-ui.com/) |
@@ -174,8 +186,9 @@ Screenshot of Skills
 Screenshot of Projects
 ![Project](./assets/Projects.png)
 
-Screenshot of Email and Footer
-![Email](./assets/Email%20and%20footer.png)
+Screenshot of Email
+Uses EmailJS to send emails to Brian.trang9@gmail.com
+![Email](./assets/Email.png)
 
 ## 📹Video
 GIF Showing ```npm run dev``` as well as the Header , About , Skills, Experience, Projects, Nav bar functionality  
