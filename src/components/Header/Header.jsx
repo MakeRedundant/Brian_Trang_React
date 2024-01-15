@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import { changeLanguage } from "../../javascript/changeLanguage.js";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
-import ME from "../../assets/Me.png";
+import Headerimage from "../../assets/Me.webp";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
@@ -62,10 +62,10 @@ const Header = () => {
               <div
                 className={isVisible ? "animate__animated animate__bounceInRight" : ""}
               >
-                {/* <div className="header-image"> */}
-                  <img src={ME} alt="Me" />
+                <div className="header-image">
+                  <img src={Headerimage} alt="Me" />
                 </div>
-              // </div>
+              </div>
             )}
           </TrackVisibility>
         </Col>
