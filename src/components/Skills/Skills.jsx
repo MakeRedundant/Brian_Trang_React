@@ -1,9 +1,21 @@
 import "./Skills.css";
+import TrackVisibility from "react-on-screen";
+import "animate.css";
 
 const Skills = () => {
   return (
-    <section id= "skills" className="tools">
-      <h1> Skills</h1>
+    <section id="skills" className="tools">
+      <TrackVisibility>
+        {({ isVisible }) => (
+          <div
+            className={
+              isVisible ? "animate__animated animate__rollIn" : ""
+            }
+          >
+            <h1> Skills</h1>
+          </div>
+        )}
+      </TrackVisibility>
       <div className="user-skills">
         <div className="tech">
           <h2>Languages</h2>
@@ -21,16 +33,23 @@ const Skills = () => {
           <i className="devicon-bootstrap-plain-wordmark colored"></i>
           <i className="devicon-tailwindcss-plain colored"></i>
           <i className="devicon-handlebars-plain colored"></i>
-          <p>My preferred technologies for front-end web development and component design.</p>
+          <p>
+            My preferred technologies for front-end web development and
+            component design.
+          </p>
         </div>
         <div className="tech">
           <h2>Back-End</h2>
           <i className="devicon-nodejs-plain colored"></i>
-          <i className="devicon-express-original-wordmark"></i>          <i className="devicon-postgresql-plain-wordmark colored"></i>
+          <i className="devicon-express-original-wordmark"></i>{" "}
+          <i className="devicon-postgresql-plain-wordmark colored"></i>
           <i className="devicon-mysql-plain-wordmark"></i>
           <i className="devicon-mongodb-plain-wordmark colored"></i>
           <i className="devicon-graphql-plain colored"></i>
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
+          <p>
+            My preferred technologies for back-end web programming and database
+            architecture.
+          </p>
         </div>
         <div className="tech">
           <h2>Tools</h2>
@@ -45,7 +64,10 @@ const Skills = () => {
           <i className="devicon-bash-plain"></i>
           <i className="devicon-codepen-plain"></i>
           <i className="devicon-jest-plain colored"></i>
-          <p>My preferred tools for code editing, sharing, wireframes, communication and testing</p>
+          <p>
+            My preferred tools for code editing, sharing, wireframes,
+            communication and testing
+          </p>
         </div>
       </div>
       <div className="tools-slider">
@@ -137,4 +159,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
