@@ -16,7 +16,7 @@ const Experience = () => {
           </div>
           <div className="terminal__content" id="text">
             <h2 className="terminal__content">
-              <span className="text-highlight">Bankstown Hospital </span>
+              <span className="text-highlight">SydWest Eye Specialists </span>
             </h2>
             <p className="terminal-year">
             2021 - Present
