@@ -10,6 +10,7 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Email from "./components/Contact/Email";
 import Footer from "./components/Footer/Footer";
+import ScrollButton from "./components/UI/ScrollButton";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Education />
       <Contact />
       <Email />
+      <ScrollButton />
       <Footer />
     </>
   );
