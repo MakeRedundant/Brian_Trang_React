@@ -200,7 +200,7 @@ Package.json dependencies ⚙️
 Have a look around !!
 
 Link to deployed application
-https://brian-trang-portfolio.netlify.app/
+https://brian-trang-portfolio.netlify.app
 
 
 ## 🖼️Screenshot
