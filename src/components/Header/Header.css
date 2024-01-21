@@ -106,4 +106,8 @@
     margin: 1.5rem 0;
     font-size: medium;
   }
+
+  #header {
+    padding-top: 0;
+  }
 }
