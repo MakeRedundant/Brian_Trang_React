@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { FaArrowCircleUp } from "react-icons/fa";
 import "./ScrollButton.css";
 
-function ScrollButton() {
+const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
