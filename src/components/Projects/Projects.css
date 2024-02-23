@@ -29,9 +29,10 @@
 }
 
 /*hover effect that inverts the colours */
-.button-container-buttons a.button:hover {
-  background-color: white;
-  color: blue;
+.button-container a.button:hover {
+  background-color: green;
+  cursor: pointer;
+  /* color: blue; */
 }
 
 .Complain-gif img {
@@ -46,7 +47,6 @@
 .tech-stack-icons i {
   margin-right: 10px;
 }
-
 
 .project-container {
   display: grid;
