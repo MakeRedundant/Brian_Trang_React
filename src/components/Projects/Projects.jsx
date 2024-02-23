@@ -150,7 +150,7 @@ const Projects = () => {
           </div>
           <div className="button-container">
             <a
-              href="https://complain-com-a977d53e691f.herokuapp.com"
+              href="https://home-oasis.netlify.app/"
               className="button"
               target="_blank"
               rel="noreferrer"
@@ -158,7 +158,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="https://github.com/MakeRedundant/Complain.com"
+              href="https://github.com/MakeRedundant/WFH-Oasis"
               className="button"
               target="_blank"
               rel="noreferrer"
