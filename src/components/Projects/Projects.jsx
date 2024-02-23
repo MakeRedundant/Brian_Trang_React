@@ -2,8 +2,8 @@ import "./Projects.css";
 import PROJECT1 from "../../assets/Sickie.webp";
 import PROJECT2 from "../../assets/Summoning.webp";
 import PROJECT3 from "../../assets/Search.webp";
-import PROJECT4 from "../../assets/Tech Blog.webp";
-import PROJECT5 from "../../assets/Weather.webp";
+import PROJECT4 from "../../assets/Savings.webp";
+import PROJECT5 from "../../assets/Complain.webp";
 import PROJECT6 from "../../assets/Specs.webp";
 import Mainproject from "../../assets/Oasis.webp";
 import { useState } from "react";
@@ -18,7 +18,7 @@ const projectData = [
     Live: "https://sickie-com-072b043c893e.herokuapp.com",
     Source: "https://github.com/MakeRedundant/Sickie.com",
     description:
-      "Sickie.com is a mockup medical website, where users request medical certificates",
+      "Sickie.com is a mockup medical website, where users signin/signup to request medical certificates",
     tags: [
       "Javascript",
       "Express.js",
@@ -55,32 +55,42 @@ const projectData = [
   {
     id: 4,
     image: PROJECT4,
-    title: "Tech Blog",
-    github: "https://github.com/MakeRedundant/CMS-Style-Tech_Blog",
-    category: "Tech Blog",
-    Live: "https://onion-tech-blog-bc59635a679a.herokuapp.com/",
-    Source: "https://github.com/MakeRedundant/CMS-Style-Tech_Blog",
+    title: "AUS Savings Leaderboard",
+    github: "https://github.com/MakeRedundant/AUS-Savings_Accounts",
+    category: "Finance",
+    Live: "https://aus-savings-accounts.vercel.app/",
+    Source: "https://github.com/MakeRedundant/AUS-Savings_Accounts",
     description:
-      "Users can sign in/sign up and create, update/edit and delete posts/comments.",
+      "Users can see which bank account is best for their needs",
     tags: [
       "Javascript",
-      "Express.js",
-      "Bcrypt",
+      "Typescript",
+      "React",
+      "Axios",
       "Tailwind",
-      "Handebars",
-      "MongoDB",
+      "Firebase",
+      "NextJS"
     ],
   },
   {
     id: 5,
     image: PROJECT5,
-    title: "5-Day Weather Forecast",
-    github: "https://github.com/MakeRedundant/README_Generator",
-    category: "Open Weather API",
-    Live: "https://makeredundant.github.io/5-Day-WeatherForcast/",
-    Source: "https://github.com/MakeRedundant/5-Day-WeatherForcast",
-    description: "5-Day Forecast for a city of your choice",
-    tags: ["Javascript", "Open Weather API", "Day JS", "Bootstrap"],
+    title: "Complain.com",
+    github: "https://github.com/MakeRedundant/Complain.com",
+    category: "Full stack Social Media App",
+    Live: "https://complain-com-a977d53e691f.herokuapp.com/",
+    Source: "https://github.com/MakeRedundant/Complain.com",
+    description: "Users can sign in/sign up and create, update/edit and delete posts/comments",
+    tags: [
+      "Javascript",
+      "Express.js",
+      "Bcrypt",
+      "MUI",
+      "React",
+      "MongoDB",
+      "Stripe",
+      "GraphQL",
+    ],
   },
   {
     id: 6,
