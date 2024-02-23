@@ -5,7 +5,7 @@ import PROJECT3 from "../../assets/Search.webp";
 import PROJECT4 from "../../assets/Tech Blog.webp";
 import PROJECT5 from "../../assets/Weather.webp";
 import PROJECT6 from "../../assets/Specs.webp";
-import Mainproject from "../../assets/Complain.webp";
+import Mainproject from "../../assets/Oasis.webp";
 import { useState } from "react";
 
 const projectData = [
@@ -102,12 +102,13 @@ const TechStackIcons = () => (
     <i className="fas fa-server" title="Express"></i>
     <i className="fab fa-node" title="Node.js"></i>
     <i className="fab fa-graphql" title="GraphQL"></i>
-    <i className="fab fa-node-js" title="MUI"></i>
     <i className="fas fa-lock" title="Bcrypt"></i>
     <i className="fas fa-code" title="Base-64"></i>
     <i className="fas fa-paint-brush" title="Emotion Styled"></i>
     <i className="fas fa-envelope" title="EmailJS"></i>
     <i className="fas fa-bell" title="SweetAlert2"></i>
+    <i className="fas fa-burn" title="Firebase"></i>
+    <i className="fab fa-rocket" title="Netlify"></i>
   </div>
 );
 
@@ -137,7 +138,7 @@ const Projects = () => {
               <br />
               User authentication 👤: Users can login, signup,
               using their emails or Gmail with Firebase authentication <br />
-              Sleek Shopping experience 🛒: The platform allows shopping by categories, adding your selected products to a cart modal <br />
+              Sleek Shopping experience 🛒: The platform allows shopping by categories and selected products to a cart modal <br />
               Email Component 📨 : The contact page features an email component
               powered by email.js <br />
               Sleek UI/UX 🎨: Oasis was styled with
