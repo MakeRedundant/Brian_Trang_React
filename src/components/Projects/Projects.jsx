@@ -6,7 +6,6 @@ import PROJECT4 from "../../assets/Tech Blog.webp";
 import PROJECT5 from "../../assets/Weather.webp";
 import PROJECT6 from "../../assets/Specs.webp";
 import Mainproject from "../../assets/Complain.webp";
-//import the gif directly instead of src it, helps with webpack and dynamic loading.
 import { useState } from "react";
 
 const projectData = [
@@ -129,23 +128,20 @@ const Projects = () => {
         <div className="Main-container">
           <div className="Main-box">
             <p>
-              Complain.com is a dynamic and user-friendly full-stack web
-              application designed to give voice to concerns and complaints.
-              Built with the cutting-edge MERN stack (MongoDB, Express, React,
-              Node.js).
+              Oasis is a dynamic and user-friendly full-stack E-Commerce web
+              application designed tailored to transform your living space into a productive workspace.
+              Built with Vite for efficient bulding and SASS for sleek stlying. Oasis uses Firebase for authentication
+              , Redux for Statemanagement and Stripe for payment processing.
               <br />
               <span className="features-header">Features</span>
               <br />
-              Complaint Creation and Management: Users can create, edit, and
-              delete their own posts effortlessly <br />
-              Featured Posts: The platform showcases the top-voted posts as
-              featured complaints on the homepage <br />
-              Rich Multimedia Support: Complain.com allows users to enrich their
-              posts by uploading images <br />
-              Email Component: The contact page features an email component
+              User authentication 👤: Users can login, signup,
+              using their emails or Gmail with Firebase authentication <br />
+              Sleek Shopping experience 🛒: The platform allows shopping by categories, adding your selected products to a cart modal <br />
+              Email Component 📨 : The contact page features an email component
               powered by email.js <br />
-              Sleek UI/UX: Complain.com was rendered using React and styled with
-              Material-UI, Styled Components, and Emotion Styled. <br />
+              Sleek UI/UX 🎨: Oasis was styled with
+              SASS and uses React slick for the carousel effect. <br />
               <br />
               <span className="features-header">Tech Stack Used:</span>
             </p>
