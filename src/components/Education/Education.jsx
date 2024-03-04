@@ -9,7 +9,7 @@ const Education = () => {
       <div className="text-box">
         <div className="university">
           <img src={USYDLogo} alt="University of Sydney Logo" />
-          <p> Certificate of Full stack web development - <span>University of Sydney</span></p>
+          <p> Certificate of Web development - <span>University of Sydney</span></p>
         </div>
         <div className="university">
           <img src={UNSWLogo} alt="University of New South Wales Logo" />
