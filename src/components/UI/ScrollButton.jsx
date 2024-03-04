@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IconContext } from "react-icons";
 import { FaArrowCircleUp } from "react-icons/fa";
 import "./ScrollButton.css";
@@ -38,7 +38,7 @@ const ScrollButton = () => {
       </IconContext.Provider>
     </button>
   );
-}
+};
 
 export default ScrollButton;
 
