@@ -1,4 +1,3 @@
-import { propTypes } from "react-bootstrap/esm/Image";
 import { Typewriter } from "react-simple-typewriter";
 
 export const TypewriterComponent2 = ({ words, loop, typeSpeed, deleteSpeed, delaySpeed }) => {
