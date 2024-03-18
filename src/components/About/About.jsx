@@ -30,7 +30,7 @@ const About = () => {
                       including Paediatrics, Refraction (LASIK), Glaucoma,
                       Orthoptics, and Retinal and after more than 5 years, I
                       have decided to jump over to programming! 👀 <br />
-                      Now as a dedicated front-end developer passionate about
+                      Now as a dedicated Full-stack developer passionate about
                       technology and expanding and learning new skills. <br />
                       I enjoy studying <TypewriterComponent2 />.
                     </p>
