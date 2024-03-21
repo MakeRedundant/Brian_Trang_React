@@ -42,7 +42,7 @@ const About = () => {
                     I enjoy{" "}
                     <span className="text-highlight">learning and coding!</span>{" "}
                     I believe consistent learning, adaptability and being an all
-                    around fun to work with, makes coding fun! 🧑‍💻 When not
+                    around fun person to work with, makes coding fun! 🧑‍💻 When not
                     coding, you can find me drinking tea 🍵, board games with
                     friends 🎲 or watching YouTube coding tutorials or cat
                     videos 🐱‍💻.
