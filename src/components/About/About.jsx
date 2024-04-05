@@ -30,7 +30,7 @@ const About = () => {
                       including Paediatrics, Refraction (LASIK), Glaucoma,
                       Orthoptics, and Retinal and after more than 5 years, I
                       have decided to jump over to programming! 👀 <br />
-                      Now as a dedicated front-end developer passionate about
+                      Now as a dedicated Full-stack developer passionate about
                       technology and expanding and learning new skills. <br />
                       I enjoy studying <TypewriterComponent2 />.
                     </p>
@@ -42,9 +42,8 @@ const About = () => {
                     I enjoy{" "}
                     <span className="text-highlight">learning and coding!</span>{" "}
                     I believe consistent learning, adaptability and being an all
-                    around fun to work with, makes coding fun! 🧑‍💻 When not
-                    coding, you can find me drinking tea 🍵, board games with
-                    friends 🎲 or watching YouTube coding tutorials or cat
+                    around fun person to work with, makes coding fun! 🧑‍💻 When not
+                    coding, you can find me drinking tea 🍵, board games 🎲 or watching YouTube coding tutorials or cat
                     videos 🐱‍💻.
                     <br />
                     Look around, and I hope to hear back from you! 👋
