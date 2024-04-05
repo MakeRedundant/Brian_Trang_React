@@ -1,5 +1,5 @@
 import "./Projects.css";
-import PROJECT1 from "../../assets/Sickie.webp";
+import PROJECT1 from "../../assets/Finance-Tracker.webp";
 import PROJECT2 from "../../assets/Summoning.webp";
 import PROJECT3 from "../../assets/Search.webp";
 import PROJECT4 from "../../assets/Savings.webp";
@@ -12,20 +12,20 @@ const projectData = [
   {
     id: 1,
     image: PROJECT1,
-    title: "Sickie.com",
-    github: "https://github.com/MakeRedundant/Sickie.com",
-    category: "Full-stack Website",
-    Live: "https://sickie-com-072b043c893e.herokuapp.com",
-    Source: "https://github.com/MakeRedundant/Sickie.com",
+    title: "Expense and Income Tracker",
+    github: "https://github.com/MakeRedundant/Expenses_Tracker",
+    category: "Finance Tracker",
+    Live: "https://expenses-incomes-tracker.netlify.app",
+    Source: "https://github.com/MakeRedundant/Expenses_Tracker",
     description:
-      "Sickie.com is a mockup medical website, where users signin/signup to request medical certificates",
+      "An intuitive web application designed to help users efficiently track their incomes and expenses.",
     tags: [
       "Javascript",
-      "Express.js",
-      "Bcrypt",
-      "Tailwind",
-      "Handebars",
-      "SQL",
+      "React",
+      "Chart.js",
+      "Local Storage",
+      "MUI",
+      "Jest",
     ],
   },
   {
