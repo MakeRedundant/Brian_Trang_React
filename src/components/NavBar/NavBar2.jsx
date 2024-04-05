@@ -23,7 +23,7 @@ const NavBar2 = () => {
         </a>
         <a href="#project" data-text="Project">
           <i className="far fa-folder-open"></i>
-          Project
+          Projects
         </a>
         <a href="#education" data-text="Education">
           <i className="far fa fa-school"></i>
