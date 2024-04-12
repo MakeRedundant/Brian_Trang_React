@@ -32,10 +32,10 @@ const projectData = [
     id: 2,
     image: PROJECT2,
     title: "Anime Game",
-    github: "https://github.com/MakeRedundant/Stress-free-gacha",
+    github: "https://github.com/MakeRedundant/Higher-Lower_Anime",
     category: "Game",
-    Live: "https://makeredundant.github.io/Stress-free-gacha/",
-    Source: "https://github.com/MakeRedundant/Stress-free-gacha",
+    Live: "https://higher-lower-anime.vercel.app",
+    Source: "https://github.com/MakeRedundant/Higher-Lower_Anime",
     description:
       "Anime popularity guessing game",
     tags: ["Javascript", "Jikan API", "React", "Game", "Anime"],
