@@ -139,10 +139,10 @@ const Projects = () => {
         <div className="Main-container">
           <div className="Main-box">
             <p>
-              Oasis is a dynamic and user-friendly full-stack E-Commerce web
-              application designed tailored to transform your living space 🏡 into a productive workspace.
+              Oasis.com is a dynamic and user-friendly full-stack E-Commerce web
+              application designed tailored to transform your living space 🏡 into a productive workspace. 🏢
               Built with Vite for efficient bulding and SASS for sleek stlying. Oasis uses Firebase for authentication 👥
-              , Redux for Statemanagement and Stripe for payment processing. 💵
+              , Redux for Statemanagement 🔨 and Stripe for payment processing. 💵
               <br />
               <span className="features-header">Features</span>
               <br />
