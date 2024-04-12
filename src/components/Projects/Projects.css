@@ -62,6 +62,19 @@
   margin-right: 10px;
 }
 
+.Main-box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* Ensure the text is displayed properly within the box */
+.Main-box p {
+  margin-bottom: 20px;
+}
+
 /* Styling for other projects */
 .project-container {
   display: grid;
