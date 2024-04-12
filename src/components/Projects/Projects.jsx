@@ -37,8 +37,8 @@ const projectData = [
     Live: "https://higher-lower-anime.vercel.app",
     Source: "https://github.com/MakeRedundant/Higher-Lower_Anime",
     description:
-      "Anime popularity guessing game",
-    tags: ["Javascript", "Jikan API", "React", "Game", "Anime"],
+      "Anime popularity guessing game based on data from MyAnimeList (MAL), saves highscores in local storage",
+    tags: ["Javascript", "Jikan API", "React", "Game", "Anime", "Local storage"],
   },
   {
     id: 3,
