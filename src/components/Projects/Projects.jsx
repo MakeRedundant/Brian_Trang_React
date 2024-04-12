@@ -31,14 +31,14 @@ const projectData = [
   {
     id: 2,
     image: PROJECT2,
-    title: "AI Gacha game",
+    title: "Anime Game",
     github: "https://github.com/MakeRedundant/Stress-free-gacha",
-    category: "AI-Videogame",
+    category: "Game",
     Live: "https://makeredundant.github.io/Stress-free-gacha/",
     Source: "https://github.com/MakeRedundant/Stress-free-gacha",
     description:
-      "Users can generate random AI-generated characters from videogames/anime.",
-    tags: ["Javascript", "PixelAI"],
+      "Anime popularity guessing game",
+    tags: ["Javascript", "Jikan API", "React", "Game", "Anime"],
   },
   {
     id: 3,
