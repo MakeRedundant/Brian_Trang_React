@@ -50,7 +50,7 @@ const projectData = [
     Source: "https://github.com/MakeRedundant/Marvel-Character-Browser",
     description:
       "Users can search for Marvel characters to see the info, comics, creators etc",
-    tags: ["Javascript", "Tailwind", "Marvel API"],
+    tags: ["Javascript", "Tailwind", "Marvel API", "Wiki"],
   },
   {
     id: 4,
