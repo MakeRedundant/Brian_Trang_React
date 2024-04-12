@@ -133,8 +133,8 @@ const Projects = () => {
     <section id="project" className="project">
       <h1>Featured Project</h1>
       <div className="Main-Project">
-        <div className="Complain-gif">
-          <img src={Mainproject} alt="Complain gif" className="Complain"></img>
+        <div className="Featured-img">
+          <img src={Mainproject} alt="Featured project image" className="Featured"></img>
         </div>
         <div className="Main-container">
           <div className="Main-box">
