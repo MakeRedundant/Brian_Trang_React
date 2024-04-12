@@ -1,6 +1,6 @@
 import "./Projects.css";
 import PROJECT1 from "../../assets/Finance-Tracker.webp";
-import PROJECT2 from "../../assets/Summoning.webp";
+import PROJECT2 from "../../assets/Anime-Game.webp";
 import PROJECT3 from "../../assets/Search.webp";
 import PROJECT4 from "../../assets/Savings.webp";
 import PROJECT5 from "../../assets/Complain.webp";
