@@ -197,8 +197,7 @@ Package.json dependencies ⚙️
 
 ## 💬Usage 
 
-Have a look around !!
-
+Have a look around!!
 Link to deployed application
 https://brian-trang-portfolio.netlify.app
 
