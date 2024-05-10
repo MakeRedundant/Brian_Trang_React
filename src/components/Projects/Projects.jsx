@@ -110,7 +110,7 @@ const projectData = [
   {
     id: 6,
     image: PROJECT6,
-    title: "Business Cards.com",
+    title: "Business Cards Generator",
     github: "https://github.com/MakeRedundant/Business_Card-Generator",
     category: "Business/Finance",
     Live: "https://business-cards-generator.netlify.app/",
