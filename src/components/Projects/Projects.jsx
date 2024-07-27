@@ -4,7 +4,7 @@ import PROJECT2 from "../../assets/Anime-Game.webp";
 import PROJECT3 from "../../assets/Search.webp";
 import PROJECT4 from "../../assets/Savings.webp";
 import PROJECT5 from "../../assets/Complain.webp";
-import PROJECT6 from "../../assets/Specs.webp";
+import PROJECT6 from "../../assets/Business-card.webp";
 import Mainproject from "../../assets/Oasis.webp";
 import { useState } from "react";
 
@@ -24,33 +24,43 @@ const projectData = [
       "React",
       "Chart.js",
       "Local Storage",
-      "MUI",
+      "Finance",
+      "Money",
+      "MUI CSS",
       "Jest",
     ],
   },
   {
     id: 2,
     image: PROJECT2,
-    title: "Anime Game",
+    title: "Higher or Lower Anime Game",
     github: "https://github.com/MakeRedundant/Higher-Lower_Anime",
     category: "Game",
     Live: "https://higher-lower-anime.vercel.app",
     Source: "https://github.com/MakeRedundant/Higher-Lower_Anime",
     description:
       "Anime popularity guessing game based on data from MyAnimeList (MAL), saves highscores in local storage",
-    tags: ["Javascript", "Jikan API", "React", "Game", "Anime", "Local storage"],
+    tags: [
+      "Javascript",
+      "Jikan API",
+      "MAL",
+      "React",
+      "Game",
+      "Anime",
+      "Local storage",
+    ],
   },
   {
     id: 3,
     image: PROJECT3,
-    title: "Marvel-Wiki",
+    title: "Marvel Wiki",
     github: "https://github.com/MakeRedundant/Marvel-Character-Browser",
     category: "Wiki",
     Live: "https://makeredundant.github.io/Marvel-Character-Browser/",
     Source: "https://github.com/MakeRedundant/Marvel-Character-Browser",
     description:
       "Users can search for Marvel characters to see the info, comics, creators etc",
-    tags: ["Javascript", "Tailwind", "Marvel API", "Wiki"],
+    tags: ["Javascript", "Tailwind", "Marvel API", "Wiki", "Autocomplete", "Local storage"],
   },
   {
     id: 4,
@@ -60,16 +70,18 @@ const projectData = [
     category: "Finance",
     Live: "https://aus-savings-accounts.vercel.app/",
     Source: "https://github.com/MakeRedundant/AUS-Savings_Accounts",
-    description:
-      "Users can see which bank account is best for their needs",
+    description: "Users can see which bank account is best for their needs",
     tags: [
       "Javascript",
       "Typescript",
       "React",
       "Axios",
       "Tailwind",
+      "Finance",
+      "Google Sheets",
       "Firebase",
-      "NextJS"
+      "NextJS",
+      "Aus Banks",
     ],
   },
   {
@@ -80,13 +92,16 @@ const projectData = [
     category: "Full stack Social Media App",
     Live: "https://complain-com-a977d53e691f.herokuapp.com/",
     Source: "https://github.com/MakeRedundant/Complain.com",
-    description: "Users can sign in/sign up and create, update/edit and delete posts/comments",
+    description:
+      "Users can sign in/sign up and create, update/edit and delete posts/comments",
     tags: [
       "Javascript",
       "Express.js",
       "Bcrypt",
       "MUI",
       "React",
+      "Image Upload",
+      "JWT",
       "MongoDB",
       "Stripe",
       "GraphQL",
@@ -95,13 +110,24 @@ const projectData = [
   {
     id: 6,
     image: PROJECT6,
-    title: "Spec-tacular.com",
-    github: "https://github.com/MakeRedundant/Spec-tacular-.com",
-    category: "E-Commerce/TypeScript",
-    Live: "https://spec-tacular-com.vercel.app/",
-    Source: "https://github.com/MakeRedundant/Spec-tacular-.com",
-    description: "WIP E-commerce store where users can buy sunglasses, glasses, contact lenses and store their prescriptions ",
-    tags: ["Javascript","Typescript", "Vite", "Vercal","E-Commerce", "MUI"],
+    title: "Business Cards Generator",
+    github: "https://github.com/MakeRedundant/Business_Card-Generator",
+    category: "Business/Finance",
+    Live: "https://business-cards-generator.netlify.app/",
+    Source: "https://github.com/MakeRedundant/Business_Card-Generator",
+    description:
+      "Business Card Generator with a live preview and option to download the card in png format.",
+    tags: [
+      "Javascript",
+      "React",
+      "Vite",
+      "Netlify",
+      "Business",
+      "DownloadJS",
+      "HTML to image",
+      "Million",
+      "Styled Components",
+    ],
   },
 ];
 
@@ -134,25 +160,32 @@ const Projects = () => {
       <h1>Featured Project</h1>
       <div className="Main-Project">
         <div className="Featured-img">
-          <img src={Mainproject} alt="Featured project image" className="Featured"></img>
+          <img
+            src={Mainproject}
+            alt="Featured project image"
+            className="Featured"
+          ></img>
         </div>
         <div className="Main-container">
           <div className="Main-box">
             <p>
               Oasis.com is a dynamic and user-friendly full-stack E-Commerce web
-              application designed tailored to transform your living space 🏡 into a productive workspace. 🏢
-              Built with Vite for efficient bulding and SASS for sleek stlying. Oasis uses Firebase for authentication 👥
-              , Redux for Statemanagement 🔨 and Stripe for payment processing. 💵
+              application designed tailored to transform your living space 🏡
+              into a productive workspace. 🏢 Built with Vite for efficient
+              bulding and SASS for sleek stlying. Oasis uses Firebase for
+              authentication 👥 , Redux for Statemanagement 🔨 and Stripe for
+              payment processing. 💵
               <br />
               <span className="features-header">Features</span>
               <br />
-              User authentication 👤: Users can login, signup,
-              using their emails or Gmail with Firebase authentication <br />
-              Sleek Shopping experience 🛒: The platform allows shopping by categories and selected products to a cart modal <br />
+              User authentication 👤: Users can login, signup, using their
+              emails or Gmail with Firebase authentication <br />
+              Sleek Shopping experience 🛒: The platform allows shopping by
+              categories and selected products to a cart modal <br />
               Email Component 📨 : The contact page features an email component
               powered by email.js <br />
-              Sleek UI/UX 🎨: Oasis was styled with
-              SASS and uses React slick for the carousel effect. <br />
+              Sleek UI/UX 🎨: Oasis was styled with SASS and uses React slick
+              for the carousel effect. <br />
               <br />
               <span className="features-header">Tech Stack Used:</span>
             </p>
