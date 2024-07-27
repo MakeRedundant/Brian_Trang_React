@@ -16,14 +16,14 @@ const Experience = () => {
           </div>
           <div className="terminal__content" id="text">
             <h2 className="terminal__content">
-              <span className="text-highlight">Upwork </span>
+              <span className="text-highlight">Amart </span>
             </h2>
-            <p className="terminal-year">2023 - Present</p>
+            <p className="terminal-year">2022 - Present</p>
 
-            <p className="terminal-job-position">Software Engineer</p>
+            <p className="terminal-job-position">Software Developer</p>
             <p className="terminal__content">
-              As the <span className="text-highlight">Software Engineer</span> I
-              was expected to transform Figma designs into reusable{" "}
+              As a <span className="text-highlight">Software Developer</span>, I
+              supported application development for an E-commerce business application creating{" "}
               <span className="text-highlight">React </span>
               components styled with modern{" "}
               <span className="text-highlight">CSS Tools </span>based on the
