@@ -44,7 +44,7 @@ const Header = () => {
                             👋 Hello
                           </h2>
                           <p>
-                            My name is Brian, and I&apos;m a software engineer{" "}
+                            My name is Brian, and I&apos;m a Software developer{" "}
                             <br />
                             based in Australia, Sydney 🦘 🐨
                           </p>
